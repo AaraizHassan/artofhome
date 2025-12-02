@@ -1,9 +1,9 @@
 export const siteDetails = {
-    siteName: 'Finwise',
+    siteName: 'Art of Home',
     siteUrl: 'https://finwise-omega.vercel.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Art of Home',
+        description: 'Art page to show paintings',
     },
     language: 'en-us',
     locale: 'en-US',
