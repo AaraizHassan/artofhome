@@ -35,9 +35,9 @@ const HomePage: React.FC = () => {
 
         <FAQ />
 
-        <Stats />
+        {/* <Stats /> */}
         
-        <CTA />
+        {/* <CTA /> */}
       </Container>
     </>
   );
