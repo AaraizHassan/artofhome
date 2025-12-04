@@ -16,7 +16,7 @@
 
 
 import Image from "next/image";
-import { pricingImages } from "@/data/pricing.ts";
+import { pricingImages } from "@/data/pricing";
 
 const Pricing: React.FC = () => {
     return (
