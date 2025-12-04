@@ -15,15 +15,15 @@ const HomePage: React.FC = () => {
       <Hero />
       <Logos />
       <Container>
-        <Benefits />
-
         <Section
           id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
+          title="Gallery"
+          // description="Simple, transparent pricing. No surprises."
         >
           <Pricing />
         </Section>
+
+        <Benefits />
 
         <Section
           id="testimonials"
