@@ -77,12 +77,12 @@
 
 export const pricingImages = [
   {
-    id: "P-001",
+    id: "Whispered Elegance",
     image: "/images/gallery1.jpeg",
-    title: "Sunset Harmony",
-    description: "A soothing blend of warm sunset tones and soft textures.",
-    dimensions: ["12x16", "16x20", "20x24"],
-    prices: [8000, 12000, 16000],
+    title: "Whispered Elegance",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n 2.5 inch elegant frame profile \n Gallery-wrapped, all accessories included, ready to hang \n Size: 2 × 3 ft",
+    dimensions: ["2x3 ft", "4x6 ft", "6x9 ft"],
+    prices: [12000, 24000, 36000],
   },
   {
     id: "P-002",
