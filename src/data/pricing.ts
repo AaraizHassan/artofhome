@@ -1,50 +1,80 @@
-// import { IPricing } from "@/types";
-
-// export const tiers: IPricing[] = [
-//     {
-//         name: 'Starter',
-//         price: 29,
-//         features: [
-//             'Basic cloud integration',
-//             'Up to 5 team members',
-//             '20GB storage',
-//             'Email support',
-//         ],
-//     },
-//     {
-//         name: 'Pro',
-//         price: 99,
-//         features: [
-//             'Advanced cloud integration',
-//             'Up to 20 team members',
-//             '100GB storage',
-//             'Priority email & phone support',
-//             'Advanced analytics',
-//         ],
-//     },
-//     {
-//         name: 'Enterprise',
-//         price: 'Custom',
-//         features: [
-//             'Full cloud integration',
-//             'Unlimited team members',
-//             'Unlimited storage',
-//             '24/7 dedicated support',
-//             'Custom solutions',
-//             'On-site training',
-//         ],
-//     },
-// ]
-
+// export const pricingImages = [
+//     "/images/gallery1.jpeg",
+//     "/images/gallery2.png",
+//     "/images/gallery3.png",
+//     "/images/gallery4.png",
+//     "/images/gallery5.png",
+//     "/images/gallery6.png",
+//     "/images/gallery7.png",
+//     "/images/gallery8.png",
+//     "/images/gallery9.png",
+// ];
 
 export const pricingImages = [
-    "/images/gallery1.png",
-    "/images/gallery2.png",
-    "/images/gallery3.png",
-    "/images/gallery4.png",
-    "/images/gallery5.png",
-    "/images/gallery6.png",
-    "/images/gallery7.png",
-    "/images/gallery8.png",
-    "/images/gallery9.png",
+    {
+        id: "P-001",
+        image: "/images/gallery1.jpeg",
+        title: "Sunset Harmony",
+        description: "A soothing blend of warm sunset tones and soft textures.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [8000, 12000, 16000], // in PKR
+    },
+    {
+        id: "P-002",
+        image: "/images/gallery2.png",
+        title: "Ocean Breeze",
+        description: "Cool tones representing calm ocean waves.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [9000, 13000, 17000],
+    },
+    {
+        id: "P-002",
+        image: "/images/gallery3.png",
+        title: "Ocean Breeze",
+        description: "Cool tones representing calm ocean waves.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [9000, 13000, 17000],
+    },{
+        id: "P-002",
+        image: "/images/gallery4.png",
+        title: "Ocean Breeze",
+        description: "Cool tones representing calm ocean waves.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [9000, 13000, 17000],
+    },{
+        id: "P-002",
+        image: "/images/gallery5.png",
+        title: "Ocean Breeze",
+        description: "Cool tones representing calm ocean waves.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [9000, 13000, 17000],
+    },{
+        id: "P-002",
+        image: "/images/gallery6.png",
+        title: "Ocean Breeze",
+        description: "Cool tones representing calm ocean waves.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [9000, 13000, 17000],
+    },{
+        id: "P-002",
+        image: "/images/gallery7.png",
+        title: "Ocean Breeze",
+        description: "Cool tones representing calm ocean waves.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [9000, 13000, 17000],
+    },{
+        id: "P-002",
+        image: "/images/gallery8.png",
+        title: "Ocean Breeze",
+        description: "Cool tones representing calm ocean waves.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [9000, 13000, 17000],
+    },{
+        id: "P-002",
+        image: "/images/gallery9.png",
+        title: "Ocean Breeze",
+        description: "Cool tones representing calm ocean waves.",
+        dimensions: ["12x16", "16x20", "20x24"],
+        prices: [9000, 13000, 17000],
+    },
 ];
