@@ -357,7 +357,12 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
             {/* DETAILS */}
             <div className="mt-4">
             <h2 className="text-2xl font-bold">{painting.title}</h2>
-            <p className="text-gray-700 mt-2">{painting.description}</p>
+            {/* <p className="text-gray-700 mt-2">{painting.description}</p> */}
+            <ul className="list-disc ml-5 space-y-1 text-gray-700">
+              {painting.description.split("\n").map((line, index) => (
+                <li key={index}>{line.trim()}</li>
+              ))}
+            </ul>
 
             {/* Dimensions */}
             <div className="mt-4">
