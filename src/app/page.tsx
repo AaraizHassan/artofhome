@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
       <Logos />
       <Container>
         <Section
-          id="pricing"
+          id="gallery"
           title="Gallery"
           description=""
         >
