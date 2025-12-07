@@ -1,6 +1,6 @@
 export const siteDetails = {
     siteName: 'Art of Home',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteUrl: 'https://artofhome.pk',
     metadata: {
         title: 'Art of Home',
         description: 'Art page to show paintings',

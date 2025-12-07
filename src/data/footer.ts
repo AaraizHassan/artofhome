@@ -10,20 +10,20 @@ export const footerDetails: {
     subheading: "Empowering businesses with cutting-edge financial technology solutions.",
     quickLinks: [
         {
-            text: "Features",
-            url: "#features"
+            text: "Gallery",
+            url: "#gallery"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "About",
+            url: "#about"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Awards",
+            url: "#awards"
         }
     ],
     email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    telephone: '+92 337 8639893',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
