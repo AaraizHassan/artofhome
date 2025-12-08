@@ -5,7 +5,7 @@ const About: React.FC = () => {
         <div id="about">
             <AboutSection
                 title="About Founder"
-                description="Write your about text here. This paragraph will explain your mission, your background, what your company or service does, and what makes it unique."
+                description="Ayesha Chaudhary is the founder of Art of Home. With a background in textile design and a lifelong love for craft, she brings a thoughtful, detail-led approach to creating spaces that feel warm, personal, and lived-in. Her work has been recognized with multiple awards, reflecting her commitment to quality and timeless design."
                 imageSrc="/images/aboutimage.png"
             />
         </div>

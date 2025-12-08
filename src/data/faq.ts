@@ -11,9 +11,9 @@ export const awards: Award[] = [
         description: "",
     },
     {
-        title: "",
+        title: "Got selected for Manchester trade mission only five Pakistani women were selected",
         image: "/images/awards2.jpeg",
-        description: "Got selected for Manchester trade mission only five Pakistani women were selected",
+        description: "",
     },
     {
         title: "Most Sales Award We Exhibit 2025",
@@ -26,7 +26,7 @@ export const awards: Award[] = [
         description: "",
     },
     {
-        title: "",
+        title: "Manchester Trade Mission Success Story",
         image: "/images/awards5.jpeg",
         description: "",
     },
@@ -41,7 +41,7 @@ export const awards: Award[] = [
         description: "",
     },
     {
-        title: "",
+        title: "Best Artist Award by the Sialkot Chamber of Commerce at the Women Excellence Awards 2024",
         image: "/images/awards8.jpeg",
         description: "",
     },
