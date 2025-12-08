@@ -1,29 +1,3 @@
-// import { IFAQ } from "@/types";
-// import { siteDetails } from "./siteDetails";
-
-// export const faqs: IFAQ[] = [
-//     {
-//         question: `Is ${siteDetails.siteName} secure?`,
-//         answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
-//     },
-//     {
-//         question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-//         answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
-//     },
-//     {
-//         question: 'Can I connect all my bank accounts?',
-//         answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
-//     },
-//     {
-//         question: 'Do I need any financial expertise to use the investing features?',
-//         answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
-//     },
-//     {
-//         question: 'What if I need help using the app?',
-//         answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
-//     }
-// ];
-
 export interface Award {
     title: string;
     image: string;
@@ -32,17 +6,17 @@ export interface Award {
 
 export const awards: Award[] = [
     {
-        title: "",
+        title: "Best Artist Award by the Sialkot Chamber of Commerce at the Women Excellence Awards 2024",
         image: "/images/awards1.jpeg",
         description: "",
     },
     {
         title: "",
         image: "/images/awards2.jpeg",
-        description: "",
+        description: "Got selected for Manchester trade mission only five Pakistani women were selected",
     },
     {
-        title: "",
+        title: "Most Sales Award We Exhibit 2025",
         image: "/images/awards3.jpeg",
         description: "",
     },
@@ -57,12 +31,12 @@ export const awards: Award[] = [
         description: "",
     },
     {
-        title: "",
+        title: "South east asia business awards artist of the year 2025",
         image: "/images/awards6.jpeg",
         description: "",
     },
     {
-        title: "",
+        title: "Worked with Khaadi",
         image: "/images/awards7.jpeg",
         description: "",
     },
@@ -77,7 +51,7 @@ export const awards: Award[] = [
         description: "",
     },
     {
-        title: "",
+        title: "Mentioned in Manchester chamber of commerce magazine",
         image: "/images/awards10.jpeg",
         description: "",
     }
