@@ -204,7 +204,9 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
 
             {/* Dimensions */}
             <div className="mt-4">
-                <p className="font-semibold mb-2">Select Dimension:</p>
+                <p className="font-semibold mb-1">Dimensions and Frame can be customized</p>
+                <p>Prices will vary based on the customization</p>
+                <p className="font-semibold mb-2">Order Now:</p>
                 <div className="flex gap-3 flex-wrap">
                 {painting.dimensions.map((d, i) => (
                     <button
@@ -308,7 +310,9 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
 
           {/* Dimensions */}
           <div className="mt-4">
-            <p className="font-semibold mb-2">Select Dimension:</p>
+            <p className="font-semibold mb-1">Dimensions and Frame can be customized</p>
+            <p>Prices will vary based on the customization</p>
+            <p className="font-semibold mb-2">Order Now:</p>
             <div className="flex gap-3 flex-wrap">
               {painting.dimensions.map((d, i) => (
                 <button
