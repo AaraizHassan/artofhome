@@ -39,6 +39,8 @@ export default function Pricing() {
               width={400}
               height={400}
               className="rounded-xl shadow"
+              // placeholder="blur"
+              // blurDataURL="data:image..."
             />
 
             {/* BELOW IMAGE */}
