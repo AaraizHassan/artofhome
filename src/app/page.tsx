@@ -15,13 +15,13 @@ const HomePage: React.FC = () => {
       <Hero />
       <Logos />
       <Container>
-        <Section
+        {/* <Section
           id="gallery"
           title="Gallery"
           description=""
         >
-          <Pricing />
-        </Section>
+        </Section> */}
+        <Pricing />
 
         <Benefits />
 
