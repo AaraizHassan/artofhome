@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import PaintingModal from "./PaintingModal";
 import { pricingImages } from "@/data/pricing";
 
@@ -9,7 +9,7 @@ export default function Pricing() {
     interface Painting {
         id: string;
         title: string;
-        image: string;
+        image: string | StaticImageData;
         description: string;
         dimensions: string[];
         prices: number[];
@@ -39,7 +39,7 @@ export default function Pricing() {
               width={400}
               height={400}
               className="rounded-xl shadow"
-              // placeholder="blur"
+              placeholder="blur"
               // blurDataURL="data:image..."
             />
 

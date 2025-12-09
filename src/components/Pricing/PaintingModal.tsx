@@ -1,13 +1,13 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { X } from "lucide-react";
 import { useState, useEffect } from "react";
 
 interface Painting {
   id: string;
   title: string;
-  image: string;
+  image: string | StaticImageData;
   description: string;
   dimensions: string[];
   prices: number[];
