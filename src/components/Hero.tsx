@@ -40,19 +40,30 @@ const Hero: React.FC = () => {
                     {/* className='relative mt-12 md:mt-16 mx-auto z-10' */}
                 {/* /> */}
             {/* </div> */}
-            <Image
+            {/* <Image
                 src={heroDetails.centerImageSrc}
                 alt="Art showcase"
-                // fill
-                // priority
-                // className="object-contain"
-                // width={100%}
-                // height={500}
                 width={1920}
                 height={1080}
                 className="w-full h-auto"
                 priority
-            />
+            /> */}
+            <div className="relative w-full h-[40vh] sm:h-[50vh] md:h-[70vh] lg:h-[90vh]">
+                <Image
+                    src={heroDetails.centerImageSrc}
+                    alt="Hero banner"
+                    priority
+                    width={1920}
+                    height={1080}
+                    className="object-cover w-full h-full"
+                    sizes="100vw"
+                />
+            </div>
+                {/* // fill
+                // priority
+                // className="object-contain"
+                // width=100%
+                // height=500 */}
         </section>
     );
 };
