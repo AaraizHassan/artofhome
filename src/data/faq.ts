@@ -45,11 +45,11 @@ export const awards: Award[] = [
         image: "/images/awards8.webp",
         description: "",
     },
-    {
-        title: "",
-        image: "/images/awards9.webp",
-        description: "",
-    },
+    // {
+    //     title: "",
+    //     image: "/images/awards9.webp", she doesn't want this pic
+    //     description: "",
+    // },
     {
         title: "Mentioned in Manchester chamber of commerce magazine",
         image: "/images/awards10.webp",
