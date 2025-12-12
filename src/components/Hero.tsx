@@ -6,6 +6,15 @@ import Image from 'next/image';
 
 import { heroDetails } from '@/data/hero';
 
+import { Manrope } from "next/font/google";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+
+
+
 const Hero: React.FC = () => {
     return (
         <section
@@ -13,42 +22,8 @@ const Hero: React.FC = () => {
             // className="relative flex items-center justify-center pb-0 pt-32 md:pt-40 px-"
             className="relative flex items-center justify-center p-0 mt-[95px] md:mt-[95px]"
         >
-            {/* <div className="absolute left-0 top-0 bottom-0 -z-10 w-full">
-                <div className="absolute inset-0 h-full w-full bg-hero-background bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_60%,transparent_100%)]">
-                </div>
-            </div> */}
 
-            {/* <div className="absolute left-0 right-0 bottom-0 backdrop-blur-[2px] h-40 bg-gradient-to-b from-transparent via-[rgba(233,238,255,0.5)] to-[rgba(202,208,230,0.5)]">
-            </div> */}
-
-            {/* <div className="text-center"> */}
-                {/* <h1 className="text-4xl md:text-6xl md:leading-tight font-bold text-foreground max-w-lg md:max-w-2xl mx-auto">{heroDetails.heading}</h1> */}
-                {/* <p className="mt-4 text-foreground max-w-lg mx-auto">{heroDetails.subheading}</p> */}
-                {/* <div className="mt-6 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto"> */}
-                    {/* <AppStoreButton dark /> */}
-                    {/* <PlayStoreButton dark /> */}
-                {/* </div> */}
-                {/* <Image */}
-                    {/* src={heroDetails.centerImageSrc} */}
-                    {/* width={384} */}
-                    {/* height={340} */}
-                    {/* quality={100} */}
-                    {/* sizes="(max-width: 768px) 100vw, 384px" */}
-                    {/* priority={true} */}
-                    {/* unoptimized={true} */}
-                    {/* alt="app mockup" */}
-                    {/* className='relative mt-12 md:mt-16 mx-auto z-10' */}
-                {/* /> */}
-            {/* </div> */}
-            {/* <Image
-                src={heroDetails.centerImageSrc}
-                alt="Art showcase"
-                width={1920}
-                height={1080}
-                className="w-full h-auto"
-                priority
-            /> */}
-            <div className="relative w-full h-[40vh] sm:h-[50vh] md:h-[70vh] lg:h-[90vh]">
+            <div className="relative w-full h-[70vh] sm:h-[50vh] md:h-[70vh] lg:h-[90vh]">
                 <Image
                     src={heroDetails.centerImageSrc}
                     alt="Hero banner"
@@ -58,12 +33,23 @@ const Hero: React.FC = () => {
                     className="object-cover w-full h-full"
                     sizes="100vw"
                 />
+                {/* Dark Gradient + Blur Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/20 backdrop-blur-[2px]"></div>
+
+                {/* Text Overlay */}
+                {/* Centered Text */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
+                    <h1 className={`${manrope.className} text-sm sm:text-base md:text-lg tracking-wide`}>
+                        Made with love
+                    </h1>
+
+                    <h1 className={`${manrope.className} text-xl sm:text-2xl md:text-4xl font-semibold mt-2 drop-shadow-xl`}>
+                        From our hands to your home
+                    </h1>
+                </div>
+
+
             </div>
-                {/* // fill
-                // priority
-                // className="object-contain"
-                // width=100%
-                // height=500 */}
         </section>
     );
 };
