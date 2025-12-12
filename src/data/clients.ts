@@ -22,7 +22,7 @@
 // ];
 
 import client1 from "../../public/images/client1.webp";
-import client2 from "../../public/images/client2.webp";
+// import client2 from "../../public/images/client2.webp";
 import client3 from "../../public/images/client3.webp";
 import client4 from "../../public/images/client4.webp";
 import client5 from "../../public/images/client5.webp";
@@ -53,11 +53,11 @@ export const clients = [
     image: client1,
     alt: "Client home wall art 1",
   },
-  {
-    id: 2,
-    image: client2,
-    alt: "Client home wall art 2",
-  },
+  // {
+  //   id: 2,
+  //   image: client2,
+  //   alt: "Client home wall art 2",
+  // },
   {
     id: 3,
     image: client3,

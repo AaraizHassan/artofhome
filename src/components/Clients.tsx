@@ -30,11 +30,11 @@ const Clients: React.FC = () => {
         Client Homes
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 px-6">
         {clients.map((client) => (
           <div
             key={client.id}
-            className="rounded-xl overflow-hidden shadow-md hover:shadow-lg transition"
+            className="rounded-xl shadow-md hover:shadow-lg transition"
           >
             <Image
               src={client.image}
