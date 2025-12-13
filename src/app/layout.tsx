@@ -36,23 +36,39 @@ export const metadata: Metadata = {
   },
 };
 
+// export default function RootLayout({
+//   children,
+// }: Readonly<{
+//   children: React.ReactNode;
+// }>) {
+//   return (
+//     <html lang="en">
+//       <body
+//         className={`${manrope.className} ${sourceSans.className} antialiased`}
+//       >
+//         {siteDetails.googleAnalyticsId && <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />}
+//         <Header />
+//         <main>
+//           {children}
+//         </main>
+//         <Footer />
+//       </body>
+//     </html>
+//   );
+// }
+
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body
-        className={`${manrope.className} ${sourceSans.className} antialiased`}
-      >
-        {siteDetails.googleAnalyticsId && <GoogleAnalytics gaId={siteDetails.googleAnalyticsId} />}
-        <Header />
-        <main>
+      <Header />
+        <body className="bg-warm-cream text-foreground min-h-screen">
           {children}
-        </main>
-        <Footer />
-      </body>
+        </body>
+      <Footer />
     </html>
   );
 }
