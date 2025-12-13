@@ -26,7 +26,7 @@ import { clients } from "@/data/clients";
 const Clients: React.FC = () => {
   return (
     <section id="clients" className="py-10 lg:py-20">
-      <h2 className="text-3xl font-bold text-center mb-10">
+      <h2 className="text-3xl font-bold text-center mb-10 text-burgundy">
         Client Homes
       </h2>
 

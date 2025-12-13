@@ -11,13 +11,13 @@ const Awards: React.FC = () => {
                 
                 {/* LEFT SECTION */}
                 <div>
-                    <p className="hidden lg:block text-foreground-accent">AWARDS</p>
+                    <p className="hidden lg:block text-burgundy">AWARDS</p>
                     <SectionTitle>
-                        <h2 className="my-3 !leading-snug lg:max-w-sm text-center lg:text-left">
+                        <h2 className="my-3 !leading-snug lg:max-w-sm text-center lg:text-left text-burgundy">
                             Certifications & Achievements
                         </h2>
                     </SectionTitle>
-                    <p className="lg:mt-10 text-foreground-accent text-center lg:text-left">
+                    <p className="lg:mt-10 text-burgundy text-center lg:text-left">
                         A glimpse of our excellence.
                     </p>
                 </div>
@@ -34,7 +34,7 @@ const Awards: React.FC = () => {
                                     className="object-contain rounded-lg"
                                 />
                             </div>
-                            <h3 className="text-xl font-semibold">{award.title}</h3>
+                            <h3 className="text-xl font-semibold text-soft-clay">{award.title}</h3>
                             <p className="text-foreground-accent mt-2 text-sm">
                                 {award.description}
                             </p>
