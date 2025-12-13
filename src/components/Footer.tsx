@@ -10,7 +10,7 @@ import logoimage from '../../public/images/art of home.png';
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-hero-warm-cream text-foreground py-10">
+        <footer className="bg-blush-rose text-foreground py-10">
             <div className="max-w-7xl w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div>
                     {/* <Link href="/" className="flex items-center gap-2">
@@ -31,9 +31,9 @@ const Footer: React.FC = () => {
                             {siteDetails.siteName}
                         </h3> */}
                     </Link>
-                    <p className="mt-3.5 text-burgundy">
+                    <h2 className="mt-3.5 text-burgundy">
                         {footerDetails.subheading}
-                    </p>
+                    </h2>
                 </div>
                 <div>
                     <h4 className="text-lg font-semibold mb-4 text-burgundy">Quick Links</h4>
