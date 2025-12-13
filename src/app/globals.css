@@ -2,16 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff;
+
   --foreground: #171717;
+
   --primary: #FED835;
+
   --secondary: #304fff;
+
 
   --primary-accent: #e5c230;
   --foreground-accent: #454545;
   --hero-background: #F3F3F5;
+} */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Brand / Accent Colors */
+  --primary: #FED835;
+  --secondary: #304fff;
+
+  /* Existing accents */
+  --primary-accent: #e5c230;
+  --foreground-accent: #454545;
+  --hero-background: #F3F3F5;
+
+  /* New Art of Home Palette */
+  --blush-rose: #E8C4C4;
+  --soft-clay: #D9A282;
+  --deep-burgundy: #6A2C37;
+  --warm-cream: #F5EFE8;
 }
+
 
 html {
   @apply scroll-smooth;
@@ -30,6 +55,25 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .bg-warm-cream {
+    background-color: var(--warm-cream);
+  }
+
+  .bg-blush-rose {
+    background-color: var(--blush-rose);
+  }
+
+  .bg-soft-clay {
+    background-color: var(--soft-clay);
+  }
+
+  .text-burgundy {
+    color: var(--deep-burgundy);
+  }
+
+  .border-soft-clay {
+    border-color: var(--soft-clay);
   }
 }
 

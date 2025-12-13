@@ -32,7 +32,7 @@ const Header: React.FC = () => {
         <header
             className={`
                 fixed top-0 left-0 right-0 z-50 mx-auto w-full transition-all duration-300
-                ${scrolled ? "bg-white/60 backdrop-blur-md shadow-md" : "bg-transparent"}
+                ${scrolled ? "bg-warm-cream/60 backdrop-blur-md shadow-md" : "bg-warm-cream"}
             `}
         >
             <Container className="!px-0">
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
                             <li key={item.text}>
                                 <Link
                                     href={item.url}
-                                    className="text-foreground hover:text-foreground-accent transition-colors"
+                                    className="text-burgundy hover:text-soft-clay transition-colors"
                                 >
                                     {item.text}
                                 </Link>
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
                         <button
                             onClick={toggleMenu}
                             type="button"
-                            className="bg-primary text-black focus:outline-none rounded-full w-10 h-10 flex items-center justify-center"
+                            className="bg-warm-cream text-burgundy focus:outline-none rounded-full w-10 h-10 flex items-center justify-center"
                             aria-controls="mobile-menu"
                             aria-expanded={isOpen}
                         >
@@ -105,13 +105,13 @@ const Header: React.FC = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
             >
-                <div id="mobile-menu" className="md:hidden bg-white shadow-lg">
+                <div id="mobile-menu" className="md:hidden bg-warm-cream shadow-lg">
                     <ul className="flex flex-col space-y-4 pt-1 pb-6 px-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
                                 <Link
                                     href={item.url}
-                                    className="text-foreground hover:text-primary block"
+                                    className="text-burgundy hover:text-soft-clay block"
                                     onClick={toggleMenu}
                                 >
                                     {item.text}
