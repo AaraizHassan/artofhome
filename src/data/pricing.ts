@@ -176,7 +176,7 @@ export const pricingImages = [
     title: "Chai Wala - AHF2411017",
     description: "A beautifully detailed portrait of a traditional man enjoying a warm cup of chai \n Printed on premium textured fabric for a rich, authentic, hand-painted look \n Earthy tones and expressive features reflecting everyday desi culture \n Classic turban, shawl, and teapot elements add warmth and storytelling \n Ideal for living rooms, cafés, study corners, and cultural décor spaces \n Size: 32 × 20 inches",
     dimensions: ["32x20 in"],
-    prices: [0, 0, 0],
+    prices: [11000, 0, 0],
   },
   {
     id: "Islamic Calligraphy Surah Kusar - AHF2411018",
@@ -184,7 +184,7 @@ export const pricingImages = [
     title: "Islamic Calligraphy Surah Kusar - AHF2411018",
     description: "Beautiful 2×3 ft calligraphy of Surah Al-Kausar, written in an elegant Thuluth-inspired style \n Printed on premium textured fabric for a rich, refined, and high-end finish \n Deep blue background with gold lettering creates a striking spiritual aesthetic \n Gold frame enhances the artwork’s timeless and graceful look \n Ideal for living rooms, prayer rooms, hallways, and peaceful interior spaces \n A meaningful piece that brings barakah, serenity, and divine remembrance into your home",
     dimensions: ["2x3 ft"],
-    prices: [0, 0, 0],
+    prices: [12500, 0, 0],
   },
   {
     id: "Cranescape - AHF2411019",
@@ -288,7 +288,7 @@ export const pricingImages = [
     title: "Tudor Era - AHF2411031",
     description: "* Printed on self-textured fabric for an authentic tapestry-inspired finish \n Classic medieval romance theme with intricate floral detailing \n Deep, rich colors that add warmth and antique character \n Elegantly framed to enhance its vintage, heritage look \n Ideal for living rooms, reading corners, studios, boutiques, and classic home décor \n 12x14 inches",
     dimensions: ["12x14 in"],
-    prices: [0],
+    prices: [5000],
   },
   {
     id: "Stillnes - AHF2411032",

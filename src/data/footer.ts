@@ -27,11 +27,11 @@ export const footerDetails: {
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
+        // twitter: 'https://twitter.com/Twitter',
+        facebook: 'https://www.facebook.com/share/1BnNdaNTTq/?mibextid=wwXIfr',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
+        // linkedin: 'https://www.linkedin.com',
         // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        instagram: 'https://www.instagram.com/artofhome.pk?igsh=MWZrcm9sbDRlZTUyNA==',
     }
 }
