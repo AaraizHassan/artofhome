@@ -208,7 +208,7 @@ export const pricingImages = [
     title: "The Village Walk - AHF2411021",
     description: "Beautiful artwork of three village women carrying water pots \n Printed on premium textured fabric for a rich, handcrafted look \n Warm earthy tones and traditional attire add cultural charm \n Dark wooden frame included \n Size: 24 × 20 inches",
     dimensions: ["24x20 in"],
-    prices: [0, 0, 0],
+    prices: [9000, 0, 0],
   },
   {
     id: "Lady with a Dove – Textured Art Frame - AHF2411022",
@@ -224,7 +224,7 @@ export const pricingImages = [
     title: "Divine Strokes - AHF2411023",
     description: "A vibrant 2×3 ft Islamic abstract calligraphy artwork featuring bold strokes and rich blends of red, orange, and blue \n Layered script creates a modern, dynamic, and spiritually expressive composition \n Printed on premium textured material for a high-end, painterly finish \n Gold frame adds elegance and depth to the overall look \n Perfect for living rooms, offices, prayer rooms, and contemporary Islamic décor spaces",
     dimensions: ["2x3 ft"],
-    prices: [0, 0, 0],
+    prices: [14500, 0, 0],
   },
   {
     id: "Muse - AHF2411024",
