@@ -13,13 +13,26 @@ export async function POST(req: Request) {
       advanceAmount,
     } = await req.json();
 
+    console.log("GMAIL USER:", process.env.GMAIL_USER);
+    console.log("GMAIL PASS EXISTS:", !!process.env.GMAIL_PASS);
+
+    // const transporter = nodemailer.createTransport({
+    //   service: "gmail",
+    //   auth: {
+    //     user: process.env.GMAIL_USER,
+    //     pass: process.env.GMAIL_PASS,
+    //   },
+    // });
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
       auth: {
         user: process.env.GMAIL_USER,
         pass: process.env.GMAIL_PASS,
       },
     });
+
 
     await transporter.sendMail({
       from: `"Art of Home Orders" <${process.env.GMAIL_USER}>`,
