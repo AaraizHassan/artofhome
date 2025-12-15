@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
@@ -13,30 +15,9 @@ export async function POST(req: Request) {
       advanceAmount,
     } = await req.json();
 
-    console.log("GMAIL USER:", process.env.GMAIL_USER);
-    console.log("GMAIL PASS EXISTS:", !!process.env.GMAIL_PASS);
-
-    // const transporter = nodemailer.createTransport({
-    //   service: "gmail",
-    //   auth: {
-    //     user: process.env.GMAIL_USER,
-    //     pass: process.env.GMAIL_PASS,
-    //   },
-    // });
-    const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
-      auth: {
-        user: process.env.GMAIL_USER,
-        pass: process.env.GMAIL_PASS,
-      },
-    });
-
-
-    await transporter.sendMail({
-      from: `"Art of Home Orders" <${process.env.GMAIL_USER}>`,
-      to: process.env.GMAIL_USER, // SEND TO YOURSELF
+    await resend.emails.send({
+      from: "Art of Home Orders <orders@resend.dev>",
+      to: ["ayeshach112299@gmail.com"], // OWNER EMAIL
       subject: `🖼️ New Painting Order — ${paintingId}`,
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6;">
@@ -64,7 +45,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Email send error:", error);
+    console.error("Resend error:", error);
     return NextResponse.json(
       { success: false, message: "Failed to send email" },
       { status: 500 }
