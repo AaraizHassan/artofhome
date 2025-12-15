@@ -42,36 +42,6 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
   const price = painting.prices[selectedIndex] || 0;
   const advance = price / 2;
 
-  // const submitForm = async () => {
-  //   if (!name || !phone) {
-  //     alert("Name and phone are required.");
-  //     return;
-  //   }
-
-  //   setSending(true);
-  //   try {
-  //     const res = await fetch("/api/send-form", {
-  //       method: "POST",
-  //       body: JSON.stringify({
-  //         name,
-  //         email,
-  //         phone,
-  //         paintingId: painting.id,
-  //         dimension: painting.dimensions[selectedIndex],
-  //         price,
-  //       }),
-  //     });
-
-  //     if (res.ok) setSuccess(true);
-  //     else alert("Failed to submit order. Try again.");
-  //   } catch (err) {
-  //     console.error(err);
-  //     alert("Error submitting form.");
-  //   } finally {
-  //     setSending(false);
-  //   }
-  // };
-
   const submitForm = async () => {
     if (!name || !phone) {
       alert("Name and phone are required.");
@@ -96,7 +66,12 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
         }),
       });
 
-      if (res.ok) setSuccess(true);
+      if (res.ok) {
+        setSuccess(true);
+        setName("");
+        setEmail("");
+        setPhone("");
+      }
       else alert("Failed to submit order. Try again.");
     } catch (err) {
       console.error(err);
