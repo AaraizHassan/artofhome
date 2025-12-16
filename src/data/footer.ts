@@ -22,7 +22,7 @@ export const footerDetails: {
             url: "#awards"
         }
     ],
-    email: 'address@yoursite.com',
+    // email: 'address@yoursite.com',
     telephone: '+92 337 8639893',
     socials: {
         // github: 'https://github.com',
