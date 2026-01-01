@@ -71,11 +71,11 @@ const Footer: React.FC = () => {
                     )}
                 </div>
             </div>
-            {/* <div className="mt-8 md:text-center text-soft-clay px-6">
+            <div className="mt-8 md:text-center text-soft-clay px-6">
                 <p>Copyright &copy; {new Date().getFullYear()} {siteDetails.siteName}. All rights reserved.</p>
                 <p className="text-sm mt-2 text-soft-clay">Made with &hearts; by <a href="https://qadars.net" target="_blank">Qadars Technology</a></p>
                 {/* <p className="text-sm mt-2 text-gray-500">UI kit by <a href="https://ui8.net/youthmind/products/fintech-finance-mobile-app-ui-kit" target="_blank">Youthmind</a></p> */}
-            </div> */}
+            </div>
         </footer>
     );
 };
