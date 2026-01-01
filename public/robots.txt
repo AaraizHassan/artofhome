@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://artofhome.pk/sitemap.xml
+Sitemap: https://www.artofhome.pk/sitemap.xml
