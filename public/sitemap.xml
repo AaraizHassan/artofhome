@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://artofhome.pk/</loc>
+    <loc>https://www.artofhome.pk/</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://artofhome.pk/#gallery</loc>
+    <loc>https://www.artofhome.pk/#gallery</loc>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://artofhome.pk/#about</loc>
+    <loc>https://www.artofhome.pk/#about</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://artofhome.pk/#clients</loc>
+    <loc>https://www.artofhome.pk/#clients</loc>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
   </url>
