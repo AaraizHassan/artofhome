@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://artofhome.pk/sitemap.xml
