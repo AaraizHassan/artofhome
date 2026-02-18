@@ -39,6 +39,19 @@ import gallery38 from '../../public/images/gallery38.webp';
 import gallery39 from '../../public/images/gallery39.webp';
 import gallery40 from '../../public/images/gallery40.webp';
 import gallery41 from '../../public/images/gallery41.webp';
+import gallery42 from '../../public/images/gallery42.webp';
+import gallery43 from '../../public/images/gallery43.webp';
+import gallery44 from '../../public/images/gallery44.webp';
+import gallery45 from '../../public/images/gallery45.webp';
+import gallery46 from '../../public/images/gallery46.webp';
+import gallery47 from '../../public/images/gallery47.webp';
+import gallery48 from '../../public/images/gallery48.webp';
+import gallery49 from '../../public/images/gallery49.webp';
+import gallery50 from '../../public/images/gallery50.webp';
+import gallery51 from '../../public/images/gallery51.webp';
+import gallery52 from '../../public/images/gallery52.webp';
+import gallery53 from '../../public/images/gallery53.webp';
+
 
 export const pricingImages = [
   {
@@ -369,6 +382,102 @@ export const pricingImages = [
     description: "Mirror framed with textured fabric art, giving it a handcrafted, gallery-style appeal \n Oriental-inspired scenes featuring temples, courtyards, figures, and lush landscapes \n Warm, aged gold frame that enhances the vintage artistic look \n Slim vertical mirror design ideal for hallways, entryways, dressing corners, or accent walls \n A unique statement piece combining functionality with cultural artistry \n Size: 25x20 inches",
     dimensions: ["25x20 in"],
     prices: [8500],
+  },
+  {
+    id: "AHF2411042",
+    image: gallery42,
+    title: "AHF2411042",
+    description: "",
+    dimensions: [""],
+    prices: [11000],
+  },
+  {
+    id: "AHF2411043",
+    image: gallery43,
+    title: "AHF2411043",
+    description: "",
+    dimensions: [""],
+    prices: [16000],
+  },
+  {
+    id: "AHF2411044",
+    image: gallery44,
+    title: "AHF2411044",
+    description: "",
+    dimensions: [""],
+    prices: [14000],
+  },
+  {
+    id: "AHF2411045",
+    image: gallery45,
+    title: "AHF2411045",
+    description: "",
+    dimensions: [""],
+    prices: [17000],
+  },
+  {
+    id: "AHF2411046",
+    image: gallery46,
+    title: "AHF2411046",
+    description: "",
+    dimensions: [""],
+    prices: [16000],
+  },
+  {
+    id: "AHF2411047",
+    image: gallery47,
+    title: "AHF2411047",
+    description: "",
+    dimensions: [""],
+    prices: [13000],
+  },
+  {
+    id: "AHF2411048",
+    image: gallery48,
+    title: "AHF2411048",
+    description: "",
+    dimensions: [""],
+    prices: [9000],
+  },
+  {
+    id: "AHF2411049",
+    image: gallery49,
+    title: "AHF2411049",
+    description: "",
+    dimensions: [""],
+    prices: [18000],
+  },
+  {
+    id: "AHF2411050",
+    image: gallery50,
+    title: "AHF2411050",
+    description: "",
+    dimensions: [""],
+    prices: [10000],
+  },
+  {
+    id: "AHF2411051",
+    image: gallery51,
+    title: "AHF2411051",
+    description: "",
+    dimensions: [""],
+    prices: [11000],
+  },
+  {
+    id: "AHF2411052",
+    image: gallery52,
+    title: "AHF2411052",
+    description: "",
+    dimensions: [""],
+    prices: [32000],
+  },
+  {
+    id: "AHF2411053",
+    image: gallery53,
+    title: "AHF2411053",
+    description: "",
+    dimensions: [""],
+    prices: [9000],
   },
   // {
   //   id: "P-003",
