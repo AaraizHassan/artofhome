@@ -394,9 +394,9 @@ export const pricingImages = [
   {
     id: "AHF2411043",
     image: gallery43,
-    title: "AHF2411043",
-    description: "",
-    dimensions: [""],
+    title: "Majestic Stallion Calligraphy - AHF2411043",
+    description: "Bold black stallion artwork with a regal presence \n Elegant Arabic calligraphy panel for a spiritual touch \n Persian-inspired patterned background for a rich, traditional look \n Premium framed finish with a classic gold border \n Perfect statement piece for living rooms, offices, and hallways \n Ideal for gifting on weddings, housewarmings, and special occasions",
+    dimensions: ["2x3 ft"],
     prices: [16000],
   },
   {
@@ -458,9 +458,9 @@ export const pricingImages = [
   {
     id: "AHF2411051",
     image: gallery51,
-    title: "AHF2411051",
-    description: "",
-    dimensions: [""],
+    title: "Traditional Still Life Frame - AHF2411051",
+    description: "Warm, vibrant still-life artwork with rich cultural tones \n Features traditional pots, vessels, and patterned textile details \n Adds a classic “desi heritage” feel to any space \n Premium frame with clean white mount for an elegant finish \n Perfect for living rooms, dining areas, cafés, and offices \n A thoughtful gift for housewarming, weddings, and décor lovers",
+    dimensions: ["22x22 in"],
     prices: [11000],
   },
   {
