@@ -39,7 +39,10 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
 
   if (!isOpen || !painting) return null;
 
-  const price = painting.prices[selectedIndex] || 0;
+  // const price = painting.prices[selectedIndex] || 0;
+  const DISCOUNT_PERCENT = 40;
+  const originalPrice = painting.prices[selectedIndex] || 0;
+  const price = Math.round(originalPrice * (1 - DISCOUNT_PERCENT / 100));
   const advance = price / 2;
 
   const submitForm = async () => {
@@ -141,8 +144,17 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
 
             {/* Price & Bank */}
             <div className="mt-4 p-3 bg-gray-100 rounded-lg">
-                <p><strong>Total Price:</strong> PKR {painting.prices[selectedIndex]}</p>
-                <p><strong>50% Advance:</strong> PKR {painting.prices[selectedIndex] / 2}</p>
+                {/* <p><strong>Total Price:</strong> PKR {painting.prices[selectedIndex]}</p>
+                <p><strong>50% Advance:</strong> PKR {painting.prices[selectedIndex] / 2}</p> */}
+                <p>
+                  <span className="line-through text-gray-500">
+                    PKR {originalPrice}
+                  </span>
+                  <span className="ml-2 text-green-600 font-bold">
+                    PKR {price}
+                  </span>
+                </p>
+                <p><strong>50% Advance:</strong> PKR {advance}</p>
             </div>
 
             <div className="mt-4 p-3 bg-gray-100 rounded-lg">
@@ -247,7 +259,16 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
 
           {/* Price & Bank */}
           <div className="mt-4 p-3 bg-gray-100 rounded-lg">
-            <p><strong>Total Price:</strong> PKR {price}</p>
+            {/* <p><strong>Total Price:</strong> PKR {price}</p>
+            <p><strong>50% Advance:</strong> PKR {advance}</p> */}
+            <p>
+              <span className="line-through text-gray-500">
+                PKR {originalPrice}
+              </span>
+              <span className="ml-2 text-green-600 font-bold">
+                PKR {price}
+              </span>
+            </p>
             <p><strong>50% Advance:</strong> PKR {advance}</p>
           </div>
 
