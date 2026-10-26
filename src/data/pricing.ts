@@ -51,6 +51,40 @@ import gallery50 from '../../public/images/gallery50.webp';
 import gallery51 from '../../public/images/gallery51.webp';
 import gallery52 from '../../public/images/gallery52.webp';
 import gallery53 from '../../public/images/gallery53.webp';
+import gallery54 from '../../public/26thOctImages/IMG_1074.jpg';
+import gallery55 from '../../public/26thOctImages/IMG_1295.jpeg';
+import gallery56 from '../../public/26thOctImages/IMG_1297.jpeg';
+import gallery57 from '../../public/26thOctImages/IMG_1298.jpeg';
+import gallery58 from '../../public/26thOctImages/IMG_1299.jpeg';
+import gallery59 from '../../public/26thOctImages/IMG_1301.jpeg';
+import gallery60 from '../../public/26thOctImages/IMG_1302.jpeg';
+import gallery61 from '../../public/26thOctImages/IMG_1304.jpeg';
+import gallery62 from '../../public/26thOctImages/IMG_1307.jpeg';
+import gallery63 from '../../public/26thOctImages/IMG_1310.jpeg';
+import gallery64 from '../../public/26thOctImages/IMG_1316.jpeg';
+import gallery65 from '../../public/26thOctImages/IMG_1319.jpeg';
+import gallery66 from '../../public/26thOctImages/IMG_1321.jpeg';
+import gallery67 from '../../public/26thOctImages/IMG_1322.jpeg';
+import gallery68 from '../../public/26thOctImages/IMG_1324.jpeg';
+import gallery69 from '../../public/26thOctImages/IMG_1327.jpeg';
+import gallery70 from '../../public/26thOctImages/IMG_1328.jpeg';
+import gallery71 from '../../public/26thOctImages/IMG_1331.jpeg';
+import gallery72 from '../../public/26thOctImages/IMG_1332.jpeg';
+import gallery73 from '../../public/26thOctImages/IMG_1333.jpeg';
+import gallery74 from '../../public/26thOctImages/IMG_1334.jpeg';
+import gallery75 from '../../public/26thOctImages/IMG_9527.jpeg';
+import gallery76 from '../../public/26thOctImages/IMG_9707.jpeg';
+import gallery77 from '../../public/26thOctImages/IMG_9708.jpeg';
+import gallery78 from '../../public/26thOctImages/IMG_9716.jpeg';
+import gallery79 from '../../public/26thOctImages/IMG_9721.jpeg';
+import gallery80 from '../../public/26thOctImages/PHOTO-2026-10-10-16-04-43.jpg';
+import gallery81 from '../../public/26thOctImages/PHOTO-2026-10-10-16-04-54.jpg';
+import gallery82 from '../../public/26thOctImages/PHOTO-2026-10-10-16-05-08.jpg';
+import gallery83 from '../../public/26thOctImages/PHOTO-2026-10-10-16-05-40.jpg';
+import gallery84 from '../../public/26thOctImages/PHOTO-2026-10-10-16-06-28.jpg';
+import gallery85 from '../../public/26thOctImages/PHOTO-2026-10-10-16-06-37.jpg';
+import gallery86 from '../../public/26thOctImages/PHOTO-2026-10-10-16-07-15.jpg';
+import gallery87 from '../../public/26thOctImages/PHOTO-2026-10-10-16-11-10.jpg';
 
 
 export const pricingImages = [
@@ -478,6 +512,278 @@ export const pricingImages = [
     description: "Classic music-inspired still life (violin, notes, vintage objects) \n Perfect for music lovers and creative spaces \n Adds a sophisticated, museum-style look \n Elegant framing with a crisp white mount",
     dimensions: [""],
     prices: [9000],
+  },
+  {
+    id: "AHF2411054",
+    image: gallery54,
+    title: "Title - AHF2411054",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411055",
+    image: gallery55,
+    title: "Title - AHF2411055",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411056",
+    image: gallery56,
+    title: "Title - AHF2411056",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411057",
+    image: gallery57,
+    title: "Title - AHF2411057",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411058",
+    image: gallery58,
+    title: "Title - AHF2411058",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411059",
+    image: gallery59,
+    title: "Title - AHF2411059",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411060",
+    image: gallery60,
+    title: "Title - AHF2411060",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411061",
+    image: gallery61,
+    title: "Title - AHF2411061",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411062",
+    image: gallery62,
+    title: "Title - AHF2411062",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411063",
+    image: gallery63,
+    title: "Title - AHF2411063",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411064",
+    image: gallery64,
+    title: "Title - AHF2411064",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411065",
+    image: gallery65,
+    title: "Title - AHF2411065",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411066",
+    image: gallery66,
+    title: "Title - AHF2411066",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411067",
+    image: gallery67,
+    title: "Title - AHF2411067",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411068",
+    image: gallery68,
+    title: "Title - AHF2411068",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411069",
+    image: gallery69,
+    title: "Title - AHF2411069",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411070",
+    image: gallery70,
+    title: "Title - AHF2411070",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411071",
+    image: gallery71,
+    title: "Title - AHF2411071",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411072",
+    image: gallery72,
+    title: "Title - AHF2411072",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411073",
+    image: gallery73,
+    title: "Title - AHF2411073",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411074",
+    image: gallery74,
+    title: "Title - AHF2411074",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411075",
+    image: gallery75,
+    title: "Title - AHF2411075",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411076",
+    image: gallery76,
+    title: "Title - AHF2411076",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411077",
+    image: gallery77,
+    title: "Title - AHF2411077",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411078",
+    image: gallery78,
+    title: "Title - AHF2411078",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411079",
+    image: gallery79,
+    title: "Title - AHF2411079",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411080",
+    image: gallery80,
+    title: "Title - AHF2411080",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411081",
+    image: gallery81,
+    title: "Title - AHF2411081",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411082",
+    image: gallery82,
+    title: "Title - AHF2411082",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411083",
+    image: gallery83,
+    title: "Title - AHF2411083",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411084",
+    image: gallery84,
+    title: "Title - AHF2411084",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411085",
+    image: gallery85,
+    title: "Title - AHF2411085",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411086",
+    image: gallery86,
+    title: "Title - AHF2411086",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
+  },
+  {
+    id: "AHF2411087",
+    image: gallery87,
+    title: "Title - AHF2411087",
+    description: "Italian-style premium frame moulding \n Vibrant, fade-resistant colors with true-to-image clarity \n Printed on luxury textured fabric \n Gallery-wrapped, all accessories included, ready to hang",
+    dimensions: [""],
+    prices: [0],
   },
   // {
   //   id: "P-003",
