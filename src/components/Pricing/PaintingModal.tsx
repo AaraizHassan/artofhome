@@ -1,7 +1,8 @@
 "use client";
 
 import Image, { StaticImageData } from "next/image";
-import { X } from "lucide-react";
+import { X, Phone } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
 interface Painting {
@@ -44,9 +45,10 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
   if (!isOpen || !painting) return null;
 
   // const price = painting.prices[selectedIndex] || 0;
-  const DISCOUNT_PERCENT = 40;
+  // const DISCOUNT_PERCENT = 40;
   const originalPrice = painting.prices[selectedIndex] || 0;
-  const price = Math.round(originalPrice * (1 - DISCOUNT_PERCENT / 100));
+  // const price = Math.round(originalPrice * (1 - DISCOUNT_PERCENT / 100));
+  const price = originalPrice;
   const advance = price / 2;
 
   const submitForm = async () => {
@@ -140,7 +142,7 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
                         selectedIndex === i ? "bg-black text-white" : "bg-gray-100"
                     }`}
                     >
-                    {d} — PKR {painting.prices[i]}
+                    {d || "Standard Size"}
                     </button>
                 ))}
                 </div>
@@ -148,17 +150,40 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
 
             {/* Price & Bank */}
             <div className="mt-4 p-3 bg-gray-100 rounded-lg">
-                {/* <p><strong>Total Price:</strong> PKR {painting.prices[selectedIndex]}</p>
-                <p><strong>50% Advance:</strong> PKR {painting.prices[selectedIndex] / 2}</p> */}
-                <p>
+                <p><strong>Price:</strong> PKR {originalPrice}</p>
+                {/* <p>
                   <span className="line-through text-gray-500">
                     PKR {originalPrice}
                   </span>
                   <span className="ml-2 text-green-600 font-bold">
                     PKR {price}
                   </span>
-                </p>
+                </p> */}
                 <p><strong>50% Advance:</strong> PKR {advance}</p>
+            </div>
+            {/* Contact Now */}
+            <div className="mt-4 p-3 bg-gray-100 rounded-lg">
+                <p className="font-semibold mb-2">Contact Now:</p>
+                <div className="flex flex-wrap items-center gap-3">
+                    <a
+                        href={`https://wa.me/923378639893?text=${encodeURIComponent(
+                            `Hi, I am interested in "${painting.title}" (${painting.dimensions[selectedIndex] || "Standard Size"})`
+                        )}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+                    >
+                        <FaWhatsapp size={18} />
+                        Chat on WhatsApp
+                    </a>
+                    <a
+                        href="tel:+923378639893"
+                        className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 border border-gray-300 text-gray-800 px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+                    >
+                        <Phone size={16} />
+                        +92 337 8639893
+                    </a>
+                </div>
             </div>
 
             <div className="mt-4 p-3 bg-gray-100 rounded-lg">
@@ -255,7 +280,7 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
                     selectedIndex === i ? "bg-black text-white" : "bg-gray-100"
                   }`}
                 >
-                  {d} — PKR {painting.prices[i]}
+                  {d || "Standard Size"}
                 </button>
               ))}
             </div>
@@ -263,18 +288,41 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
 
           {/* Price & Bank */}
           <div className="mt-4 p-3 bg-gray-100 rounded-lg">
-            {/* <p><strong>Total Price:</strong> PKR {price}</p>
-            <p><strong>50% Advance:</strong> PKR {advance}</p> */}
-            <p>
+            <p><strong>Price:</strong> PKR {originalPrice}</p>
+            {/* <p>
               <span className="line-through text-gray-500">
                 PKR {originalPrice}
               </span>
               <span className="ml-2 text-green-600 font-bold">
                 PKR {price}
               </span>
-            </p>
+            </p> */}
             <p><strong>50% Advance:</strong> PKR {advance}</p>
           </div>
+            {/* Contact Now */}
+            <div className="mt-4 p-3 bg-gray-100 rounded-lg">
+                <p className="font-semibold mb-2">Contact Now:</p>
+                <div className="flex flex-wrap items-center gap-3">
+                    <a
+                        href={`https://wa.me/923378639893?text=${encodeURIComponent(
+                            `Hi, I am interested in "${painting.title}" (${painting.dimensions[selectedIndex] || "Standard Size"})`
+                        )}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+                    >
+                        <FaWhatsapp size={18} />
+                        Chat on WhatsApp
+                    </a>
+                    <a
+                        href="tel:+923378639893"
+                        className="inline-flex items-center gap-2 bg-white hover:bg-gray-50 border border-gray-300 text-gray-800 px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+                    >
+                        <Phone size={16} />
+                        +92 337 8639893
+                    </a>
+                </div>
+            </div>
 
           <div className="mt-4 p-3 bg-gray-100 rounded-lg">
             <p className="font-semibold">Bank Transfer Details:</p>

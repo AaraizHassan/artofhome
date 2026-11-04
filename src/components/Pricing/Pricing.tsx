@@ -17,7 +17,7 @@ export default function Pricing() {
 
   const [selectedPainting, setSelectedPainting] = useState<Painting | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const DISCOUNT_PERCENT = 40;
+  // const DISCOUNT_PERCENT = 40;
 
   const openModal = (painting: Painting) => {
     setSelectedPainting(painting);
@@ -56,11 +56,11 @@ export default function Pricing() {
               {item.title}
             </p>
             <p className="text-foreground-accent text-sm">
-              {item.dimensions.length > 1 ? `Starting from ${item.prices[0]}` : `Was ${item.prices[0]}`}
+              {item.dimensions.length > 1 ? `Price: Starting from ${item.prices[0]}` : `Price: ${item.prices[0]}`}
             </p>
-            <p className="text-foreground-accent text-sm">
-              Now {Math.round(item.prices[0] * (1 - DISCOUNT_PERCENT / 100))}
-            </p>
+            {/* <p className="text-foreground-accent text-sm">
+              Now {Math.round(item.prices[0] * (1 - 40 / 100))}
+            </p> */}
             <p className="text-foreground-accent text-sm">
               Sizes: {item.dimensions.join(", ")}
             </p>
