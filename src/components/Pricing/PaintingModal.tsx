@@ -37,6 +37,10 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  useEffect(() => {
+    setSelectedIndex(0);
+  }, [painting]);
+
   if (!isOpen || !painting) return null;
 
   // const price = painting.prices[selectedIndex] || 0;

@@ -56,7 +56,7 @@ export default function Pricing() {
               {item.title}
             </p>
             <p className="text-foreground-accent text-sm">
-              Was {item.prices[0]}
+              {item.dimensions.length > 1 ? `Starting from ${item.prices[0]}` : `Was ${item.prices[0]}`}
             </p>
             <p className="text-foreground-accent text-sm">
               Now {Math.round(item.prices[0] * (1 - DISCOUNT_PERCENT / 100))}
