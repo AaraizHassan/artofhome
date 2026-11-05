@@ -1,7 +1,7 @@
 "use client";
 
 import Image, { StaticImageData } from "next/image";
-import { X, Phone } from "lucide-react";
+import { X, Phone, Share2, Check } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
@@ -27,10 +27,12 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
   const [phone, setPhone] = useState("");
   const [sending, setSending] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     setSelectedIndex(0);
     setSuccess(false);
+    setCopied(false);
   }, [painting]);
 
   if (!isOpen || !painting) return null;
@@ -38,6 +40,14 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
   const originalPrice = painting.prices[selectedIndex] || 0;
   const price = originalPrice;
   const advance = price / 2;
+
+  const handleCopyLink = () => {
+    if (typeof window !== "undefined") {
+      navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    }
+  };
 
   const submitForm = async () => {
     if (!name || !phone) {
@@ -110,14 +120,24 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
         {/* DETAILS & ORDER FORM SIDE */}
         <div className="w-full md:w-1/2 p-6 md:p-8 overflow-y-auto space-y-6">
           
-          {/* Header */}
-          <div>
-            <span className="text-[11px] font-mono tracking-widest text-gold-600 uppercase font-semibold">
-              Artwork Details
-            </span>
-            <h2 className="font-serif text-2xl md:text-3xl font-medium text-burgundy mt-1">
-              {painting.title}
-            </h2>
+          {/* Header & Share button */}
+          <div className="flex items-start justify-between gap-4 pr-8">
+            <div>
+              <span className="text-[11px] font-mono tracking-widest text-gold-600 uppercase font-semibold">
+                Artwork Details
+              </span>
+              <h2 className="font-serif text-2xl md:text-3xl font-medium text-burgundy mt-1">
+                {painting.title}
+              </h2>
+            </div>
+            <button
+              onClick={handleCopyLink}
+              className="inline-flex items-center gap-1.5 text-xs font-medium text-stone-600 hover:text-burgundy bg-stone-50 hover:bg-stone-100 border border-[#E5DEC9] px-3 py-1.5 rounded-lg transition-colors flex-shrink-0"
+              title="Copy direct link to this painting"
+            >
+              {copied ? <Check size={13} className="text-emerald-600" /> : <Share2 size={13} />}
+              <span>{copied ? "Link Copied!" : "Share Link"}</span>
+            </button>
           </div>
 
           {/* Description Bullets */}
@@ -176,7 +196,7 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
             <div className="flex flex-wrap items-center gap-3">
               <a
                 href={`https://wa.me/923378639893?text=${encodeURIComponent(
-                  `Hi, I am interested in "${painting.title}" (${painting.dimensions[selectedIndex] || "Standard Size"})`
+                  `Hi, I am interested in "${painting.title}" (${painting.dimensions[selectedIndex] || "Standard Size"})\nLink: ${typeof window !== 'undefined' ? window.location.href : ''}`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
