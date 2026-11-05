@@ -101,16 +101,16 @@ export const pricingImages = [
     id: "French Vintage Tapestry - AHF2411002",
     image: gallery2,
     title: "French Vintage Tapestry - AHF2411002",
-    description: "Printed on tapestry fabric that recreates true hand-woven texture \n Vibrant, fade-resistant colors with exceptional clarity \n 2.5-inch elegant moulding for a luxurious finish \n Gallery-wrapped, all accessories included, ready to hang \n Size: 2 × 3 ft",
-    dimensions: ["2x3 ft"],
+    description: "Printed on tapestry fabric that recreates true hand-woven texture \n Vibrant, fade-resistant colors with exceptional clarity \n 2.5-inch elegant moulding for a luxurious finish \n Gallery-wrapped, all accessories included, ready to hang \n Size: 3 × 2 ft",
+    dimensions: ["3x2 ft"],
     prices: [15000, 30000, 45000],
   },
   {
     id: "Majestic Duo - AHF2411003",
     image: gallery3,
     title: "Majestic Duo - AHF2411003",
-    description: "Stunning artwork featuring two beautiful horses against a rich, decorative backdrop \n Strong contrast between the light and dark horse makes the piece instantly eye-catching \n Printed on premium tapestry-style fabric for a textured, luxurious look \n Warm colors and fine detailing add a classy, elegant touch to any space \n Enhances living rooms, offices, lobbies, cafés, and designer interiors \n Comes ready to hang for a quick and easy décor upgrade \n A great choice for those who love animal art, royal designs, or statement pieces \n Size: 31 × 22 inches – perfect for wall display without looking too large",
-    dimensions: ["31x22 in"],
+    description: "Stunning artwork featuring two beautiful horses against a rich, decorative backdrop \n Strong contrast between the light and dark horse makes the piece instantly eye-catching \n Printed on premium tapestry-style fabric for a textured, luxurious look \n Warm colors and fine detailing add a classy, elegant touch to any space \n Enhances living rooms, offices, lobbies, cafés, and designer interiors \n Comes ready to hang for a quick and easy décor upgrade \n A great choice for those who love animal art, royal designs, or statement pieces \n Size: 22 × 31 inches – perfect for wall display without looking too large",
+    dimensions: ["22x31 in"],
     prices: [14000, 20000, 26000],
   },
   {
@@ -197,8 +197,8 @@ export const pricingImages = [
     id: "Mughal Majesty - AHF24110104",
     image: gallery14,
     title: "Mughal Majesty - AHF24110104",
-    description: "A beautiful 2×3 ft single artwork featuring Shah Jahan and Mumtaz Mahal together, inspired by the legendary love story that gave the world the Taj Mahal \n Printed on premium fabric textured material with rich Mughal miniature–style detailing \n Elegant gold frame enhances the royal and classic aesthetic \n Perfect for living rooms, drawing rooms, hallways, and heritage-inspired spaces",
-    dimensions: ["2x3 ft"],
+    description: "A beautiful 3×2 ft single artwork featuring Shah Jahan and Mumtaz Mahal together, inspired by the legendary love story that gave the world the Taj Mahal \n Printed on premium fabric textured material with rich Mughal miniature–style detailing \n Elegant gold frame enhances the royal and classic aesthetic \n Perfect for living rooms, drawing rooms, hallways, and heritage-inspired spaces",
+    dimensions: ["3x2 ft"],
     prices: [32000, 40000, 47000],
   },
   {
@@ -221,24 +221,24 @@ export const pricingImages = [
     id: "Chai Wala - AHF2411017",
     image: gallery17,
     title: "Chai Wala - AHF2411017",
-    description: "A beautifully detailed portrait of a traditional man enjoying a warm cup of chai \n Printed on premium textured fabric for a rich, authentic, hand-painted look \n Earthy tones and expressive features reflecting everyday desi culture \n Classic turban, shawl, and teapot elements add warmth and storytelling \n Ideal for living rooms, cafés, study corners, and cultural décor spaces \n Size: 32 × 20 inches",
-    dimensions: ["32x20 in"],
+    description: "A beautifully detailed portrait of a traditional man enjoying a warm cup of chai \n Printed on premium textured fabric for a rich, authentic, hand-painted look \n Earthy tones and expressive features reflecting everyday desi culture \n Classic turban, shawl, and teapot elements add warmth and storytelling \n Ideal for living rooms, cafés, study corners, and cultural décor spaces \n Size: 20 × 32 inches",
+    dimensions: ["20x32 in"],
     prices: [11000, 0, 0],
   },
   {
     id: "Islamic Calligraphy Surah Kusar - AHF2411018",
     image: gallery18,
     title: "Islamic Calligraphy Surah Kusar - AHF2411018",
-    description: "Beautiful 2×3 ft calligraphy of Surah Al-Kausar, written in an elegant Thuluth-inspired style \n Printed on premium textured fabric for a rich, refined, and high-end finish \n Deep blue background with gold lettering creates a striking spiritual aesthetic \n Gold frame enhances the artwork’s timeless and graceful look \n Ideal for living rooms, prayer rooms, hallways, and peaceful interior spaces \n A meaningful piece that brings barakah, serenity, and divine remembrance into your home",
-    dimensions: ["2x3 ft"],
+    description: "Beautiful 3×2 ft calligraphy of Surah Al-Kausar, written in an elegant Thuluth-inspired style \n Printed on premium textured fabric for a rich, refined, and high-end finish \n Deep blue background with gold lettering creates a striking spiritual aesthetic \n Gold frame enhances the artwork’s timeless and graceful look \n Ideal for living rooms, prayer rooms, hallways, and peaceful interior spaces \n A meaningful piece that brings barakah, serenity, and divine remembrance into your home",
+    dimensions: ["3x2 ft"],
     prices: [12500, 0, 0],
   },
   {
     id: "Cranescape - AHF2411019",
     image: gallery19,
     title: "Cranescape - AHF2411019",
-    description: "A serene multi-panel artwork featuring four graceful cranes in warm golden and earthy tones \n Minimalist yet expressive design that adds calm, balance, and natural elegance to any room \n Printed on premium textured material for a rich, artistic finish \n Sleek dark frame enhances the modern and warm aesthetic \n Perfect for bedrooms, living rooms, studios, hallways, and nature-inspired interiors \n Size: 15 × 30 inches",
-    dimensions: ["15x30 in"],
+    description: "A serene multi-panel artwork featuring four graceful cranes in warm golden and earthy tones \n Minimalist yet expressive design that adds calm, balance, and natural elegance to any room \n Printed on premium textured material for a rich, artistic finish \n Sleek dark frame enhances the modern and warm aesthetic \n Perfect for bedrooms, living rooms, studios, hallways, and nature-inspired interiors \n Size: 30 × 15 inches",
+    dimensions: ["30x15 in"],
     prices: [9500, 13000, 17000],
   },
   {
@@ -253,8 +253,8 @@ export const pricingImages = [
     id: "The Village Walk - AHF2411021",
     image: gallery21,
     title: "The Village Walk - AHF2411021",
-    description: "Beautiful artwork of three village women carrying water pots \n Printed on premium textured fabric for a rich, handcrafted look \n Warm earthy tones and traditional attire add cultural charm \n Dark wooden frame included \n Size: 24 × 20 inches",
-    dimensions: ["24x20 in"],
+    description: "Beautiful artwork of three village women carrying water pots \n Printed on premium textured fabric for a rich, handcrafted look \n Warm earthy tones and traditional attire add cultural charm \n Dark wooden frame included \n Size: 20 × 24 inches",
+    dimensions: ["20x24 in"],
     prices: [9000, 0, 0],
   },
   {
@@ -357,8 +357,8 @@ export const pricingImages = [
     id: "Hope - AHF2411034",
     image: gallery34,
     title: "Hope - AHF2411034",
-    description: "Printed on tapestry fabric, giving it a rich, textured, antique-inspired finish \n Portrays an artist working for his family’s livelihood, adding emotional depth \n Children waiting nearby symbolize hope, struggle, and the power of creativity \n Warm, rustic tones enhance the vintage charm and storytelling feel \n Elegantly framed, perfect for studios, living rooms, libraries, and artistic spaces \n Size 24 by 22 inches",
-    dimensions: ["24x22 inches"],
+    description: "Printed on tapestry fabric, giving it a rich, textured, antique-inspired finish \n Portrays an artist working for his family’s livelihood, adding emotional depth \n Children waiting nearby symbolize hope, struggle, and the power of creativity \n Warm, rustic tones enhance the vintage charm and storytelling feel \n Elegantly framed, perfect for studios, living rooms, libraries, and artistic spaces \n Size 22 by 24 inches",
+    dimensions: ["22x24 in"],
     prices: [13000],
   },
   {
@@ -413,8 +413,8 @@ export const pricingImages = [
     id: "Turkish Art - AHF2411041",
     image: gallery41,
     title: "Turkish Art - AHF2411041",
-    description: "Mirror framed with textured fabric art, giving it a handcrafted, gallery-style appeal \n Oriental-inspired scenes featuring temples, courtyards, figures, and lush landscapes \n Warm, aged gold frame that enhances the vintage artistic look \n Slim vertical mirror design ideal for hallways, entryways, dressing corners, or accent walls \n A unique statement piece combining functionality with cultural artistry \n Size: 25x20 inches",
-    dimensions: ["25x20 in"],
+    description: "Mirror framed with textured fabric art, giving it a handcrafted, gallery-style appeal \n Oriental-inspired scenes featuring temples, courtyards, figures, and lush landscapes \n Warm, aged gold frame that enhances the vintage artistic look \n Slim vertical mirror design ideal for hallways, entryways, dressing corners, or accent walls \n A unique statement piece combining functionality with cultural artistry \n Size: 20x25 inches",
+    dimensions: ["20x25 in"],
     prices: [8500],
   },
   {
@@ -438,7 +438,7 @@ export const pricingImages = [
     image: gallery44,
     title: "Twin Spirits - AHF2411044",
     description: "Two-horse portrait symbolizing strength & companionship \n Warm background with a premium rustic frame finish \n Ideal for lounges, offices, stables, and statement walls \n Powerful centerpiece for any room",
-    dimensions: [""],
+    dimensions: ["20x24 in"],
     prices: [14000],
   },
   {
@@ -478,7 +478,7 @@ export const pricingImages = [
     image: gallery49,
     title: "Mirror of Tradition - AHF2411049",
     description: "Decorative wall mirror surrounded by colorful heritage art \n Adds light, space, and a unique statement to your wall \n Perfect for entryways, powder rooms, and corridors \n A standout piece for modern + traditional interiors",
-    dimensions: [""],
+    dimensions: ["20x26 in"],
     prices: [18000],
   },
   {
@@ -502,7 +502,7 @@ export const pricingImages = [
     image: gallery52,
     title: "Royal Grace (Full-Length Portrait) - AHF2411052",
     description: "Same heritage bridal artwork in a closer, full-length view \n Rich colors, traditional attire, and timeless elegance \n Perfect for statement walls and classic interiors \n Gold frame for a premium finish \n Hand embellished",
-    dimensions: [""],
+    dimensions: ["2x3 ft"],
     prices: [32000],
   },
   {
@@ -510,7 +510,7 @@ export const pricingImages = [
     image: gallery53,
     title: "Melody & Memories - AHF2411053",
     description: "Classic music-inspired still life (violin, notes, vintage objects) \n Perfect for music lovers and creative spaces \n Adds a sophisticated, museum-style look \n Elegant framing with a crisp white mount",
-    dimensions: [""],
+    dimensions: ["20x24 in"],
     prices: [9000],
   },
   {
@@ -526,7 +526,7 @@ export const pricingImages = [
     image: gallery55,
     title: "Devotion in Solitude - AHF2411055",
     description: "Captivating aerial perspective of a devotee engrossed in recitation of the Holy Quran \n Traditional embroidered prayer cap and patterned shawl set on a geometric oriental carpet \n Printed on premium textured fabric recreating authentic woven depth \n Framed in a textured antique gold border for a timeless heirloom look \n Perfect for study corners, prayer rooms, libraries, and reflective spaces",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -534,7 +534,7 @@ export const pricingImages = [
     image: gallery56,
     title: "The Sacred Recitation - AHF2411056",
     description: "Reverent depiction of Quranic contemplation from an intimate top-down view \n Rich fabric weave capturing deep blues, terracotta, and soft neutral carpet motifs \n Fine painterly detail highlighting the sacred open pages and devotee’s attire \n Finished with a classic gold frame for an elevated gallery presence \n Brings barakah, serenity, and timeless grace to any heritage interior",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -542,7 +542,7 @@ export const pricingImages = [
     image: gallery57,
     title: "The Explorer's Globe - AHF2411057",
     description: "Vintage terrestrial brass globe illuminated amidst stacks of leather-bound library volumes \n Warm amber, bronze, and mahogany tones evoking the Golden Age of discovery \n Printed on luxury textured fabric for an antique museum-quality feel \n Framed with an elegant gold outer moulding and sleek black inner reveal \n A sophisticated statement piece for executive offices, home libraries, and study rooms",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -550,7 +550,7 @@ export const pricingImages = [
     image: gallery58,
     title: "World of Discovery - AHF2411058",
     description: "Detailed vintage study composition centered around an antique terrestrial globe \n Intricate cartographic lines and time-worn book spines rich in nostalgic warmth \n High-definition print on textured tapestry material with rich contrast \n Premium gold-accented frame ready to hang effortlessly \n Adds scholarly elegance and vintage allure to lounges, offices, and reading nooks",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -558,7 +558,7 @@ export const pricingImages = [
     image: gallery59,
     title: "The Cartographer's Study - AHF2411059",
     description: "An expansive vintage atelier with a historic world map, wooden bureau, and navigational tools \n Soft sunlight pouring from the window onto aged parchment, books, and compasses \n Richly textured fabric print giving warmth and architectural depth to every detail \n Gold-trimmed frame adds warmth and sophistication to the composition \n Perfect for curated studies, executive suites, reception areas, and library walls",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -566,7 +566,7 @@ export const pricingImages = [
     image: gallery60,
     title: "Timeless Chronometer - AHF2411060",
     description: "Classic pocket watch resting on antique leather manuscripts against a vibrant celestial map \n Striking contrast of aged teal ocean cartography with rich sepia and gold accents \n Printed on textured canvas fabric with true-to-life clarity and depth \n Gilded antique gold frame brings museum-grade refinement \n Perfect gift for collectors, history enthusiasts, offices, and sophisticated lounges",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -574,7 +574,7 @@ export const pricingImages = [
     image: gallery61,
     title: "Girl with a Pearl Earring - AHF2411061",
     description: "Vermeer’s legendary masterwork recreated with extraordinary tonal depth and expression \n Iconic ultramarine blue turban and luminous pearl highlighted on textured fine art fabric \n Deep velvety background contrasting against warm, translucent skin tones \n Finished in a sleek modern black floating frame for a bold contemporary finish \n A timeless masterpiece for feature walls, creative studios, and art lovers' homes",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -582,7 +582,7 @@ export const pricingImages = [
     image: gallery62,
     title: "Baroque Melody Still Life - AHF2411062",
     description: "Opulent baroque still life featuring a classical violin, artist’s palette, roses, and sheet music \n Rich crimson velvet drapery and golden lighting evoke old-world European salon charm \n Premium fabric texture enhances the tactile feel of wood grain and delicate petals \n Framed in a distressed champagne gold moulding with vintage patina \n Ideal for music rooms, formal dining halls, lounges, and creative spaces",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -590,7 +590,7 @@ export const pricingImages = [
     image: gallery63,
     title: "Celestial Whirling Dervish - AHF2411063",
     description: "Mystical depiction of a whirling Sufi dervish sweeping gracefully in flowing white attire \n Luminous golden crescent moon and shimmering stardust against a deep celestial backdrop \n Printed on rich textured fabric capturing dynamic movement and spiritual ecstasy \n Encased in a luxurious wide gold-leaf style frame — ready to hang \n Brings transcendent peace, mindfulness, and sacred beauty to any living or spiritual space",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -598,7 +598,7 @@ export const pricingImages = [
     image: gallery64,
     title: "The Scholar's Timepiece - AHF2411064",
     description: "Atmospheric composition of a vintage Roman pocket watch atop stacked antique ledgers \n Deep teal world map backdrop framed by ornate Renaissance-style baroque scrollwork \n High-clarity print on luxury textured fabric with warm, dramatic shadows \n Classic gold frame highlighting the intricate golden details of the watch and pen \n Perfect for reading lounges, offices, studies, and scholarly collections",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -606,7 +606,7 @@ export const pricingImages = [
     image: gallery65,
     title: "The Master Potter - AHF2411065",
     description: "Honoring traditional craftsmanship through an elderly potter shaping an earthen vase \n Dynamic impasto brushstrokes with rich indigo, ochre, and wet clay reflections \n Printed on premium woven fabric capturing the raw texture and soul of artisan labor \n Framed in an ornate gilded frame that celebrates heritage and dedication \n Inspiring centerpiece for cultural spaces, studios, entryways, and craft lovers",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -614,7 +614,7 @@ export const pricingImages = [
     image: gallery66,
     title: "Autumn Reverie - AHF2411066",
     description: "Serene impressionistic landscape of a winding lakeside path showered in crimson foliage \n Glowing scarlet, golden amber, and soft mountain reflections across calm blue waters \n Printed on fine textured fabric giving painterly depth to every brushstroke \n Classic gold bevelled frame adds warmth and luxury to the vibrant scenic view \n Perfect for living rooms, hallways, dining spaces, and nature-inspired interiors",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -622,7 +622,7 @@ export const pricingImages = [
     image: gallery67,
     title: "Victorian Blossom Harmony - AHF2411067",
     description: "Magnificent arrangement of roses, lilies, and wildflowers in an antique porcelain vase \n Rich palette of ruby red, blush pink, ivory, and vibrant foliage against a muted backdrop \n Fine textured fabric print capturing the delicate realism of blooming petals \n Encased in a crisp white minimalist frame that allows the colors to pop \n An uplifting focal point for dining rooms, bedrooms, entryways, and drawing rooms",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -630,7 +630,7 @@ export const pricingImages = [
     image: gallery68,
     title: "Mughal Sunset Splendor - AHF2411068",
     description: "Breathtaking architectural study of a Mughal palace dome under a dramatic sunset sky \n Radiant pink, coral, and violet clouds mirrored in the tranquil courtyard pool below \n Detailed miniature-style craftsmanship printed on luxury fabric with vivid clarity \n Warm golden frame profile that complements the royal historic ambiance \n A regal statement piece for drawing rooms, executive offices, and grand hallways",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -638,7 +638,7 @@ export const pricingImages = [
     image: gallery69,
     title: "Wild Ember Stallion - AHF2411069",
     description: "Powerful white Arabian horse charging through an explosive aura of crimson and fiery embers \n Dynamic motion, flying mane, and splatters of fiery paint radiate raw strength and energy \n Printed on rich textured fabric for intense color vibrancy and lifelike dramatic contrast \n Sleek dark frame with a gold outer trim keeps focus on the horse's power \n Perfect for modern lounges, offices, feature walls, and equine art collectors",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -646,7 +646,7 @@ export const pricingImages = [
     image: gallery70,
     title: "Victorian Cobblestone Journey - AHF2411070",
     description: "Nostalgic 19th-century street scene with a horse-drawn carriage on cobblestone pavers \n Warm terracotta and sepia tones depicting historic brick facades and a patient coachman \n Double mounted with a clean ivory border and a wide vintage gold profile \n Printed on textured fabric for an authentic, aged vintage appeal \n Ideal for hallways, study rooms, boutique spaces, and heritage décor enthusiasts",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -654,7 +654,7 @@ export const pricingImages = [
     image: gallery71,
     title: "Heritage Tea Harmony - AHF2411071",
     description: "Charming cultural still life featuring an ornate brass teapot, cup, and vibrant kilim runner \n Intricate carpet patterns in cobalt blue, vermilion, and warm earthy tones with roses \n Framed in a distinctive bamboo-carved gilded frame with wide neutral matting \n Printed on premium fabric material with rich textural detailing \n Adds cozy, welcoming warmth to dining corners, tea lounges, kitchens, and cafés",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -662,7 +662,7 @@ export const pricingImages = [
     image: gallery72,
     title: "The Floral Glance Mirror Art - AHF2411072",
     description: "Innovative dual-purpose decorative wall art pairing a functional mirror with tapestry art \n Depicts a graceful lady with flowers inset against a soft powder blue mirrored background \n Vintage impressionist tones of gold, amber, and blush pink on textured tapestry fabric \n Slim gold moulding adds modern chic refinement to the asymmetrical design \n Ideal for dressing spaces, powder rooms, entryways, and chic boutique corners",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -670,7 +670,7 @@ export const pricingImages = [
     image: gallery73,
     title: "Blossom Maiden Mirror - AHF2411073",
     description: "Artistic wall mirror featuring an inset portrait of a vintage maiden amidst blossoms \n Serene periwinkle and golden tones blending utility with artistic expression \n Printed on rich textured fabric and embedded within a reflective mirror surface \n Warm gold border enhances the light and dimension of any room \n Perfect statement piece for modern vanity nooks, corridors, and contemporary spaces",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -678,7 +678,7 @@ export const pricingImages = [
     image: gallery74,
     title: "Sunflowers in Golden Harmony - AHF2411074",
     description: "Double sunflower still-life diptych set within a vibrant sunshine yellow display panel \n Van Gogh-inspired rustic sunflower bouquets with radiant golden and cobalt blue contrasts \n High-resolution fabric print capturing the sunny warmth and joyous vitality of blooming flora \n Finished in a sleek dark bronze frame for striking modern contrast \n Perfect for breakfast nooks, living rooms, creative studios, and bright spaces",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["3x2 ft"],
     prices: [6000, 7000],
   },
   {
@@ -686,7 +686,7 @@ export const pricingImages = [
     image: gallery75,
     title: "Divine Heritage Gallery - AHF2411075",
     description: "Curated spiritual art ensemble featuring renowned Quranic calligraphy and heritage motifs \n Includes 'Iyyaka Na'budu', Dua-e-Maghfirat, and celestial library elements \n High-definition prints on luxury textured fabric with deep black, gold, and earthy palettes \n Coordinated premium frames designed to form an instant cohesive gallery wall \n Transforms living rooms, prayer halls, and grand entrances into sanctuaries of barakah",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -694,7 +694,7 @@ export const pricingImages = [
     image: gallery76,
     title: "The Spotted Rider - AHF2411076",
     description: "Modernist folk equestrian artwork featuring an elongated spotted horse and slender rider \n Striking black-and-white dapples against a shimmering metallic champagne gold background \n Avant-garde silhouettes with a balance of whimsical minimalism and folk sophistication \n Encased in a rich dark walnut frame with an inner gilded accent rim \n A bold conversational piece for modern lounges, gallery walls, and contemporary homes",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -702,7 +702,7 @@ export const pricingImages = [
     image: gallery77,
     title: "The Chestnut Steed - AHF2411077",
     description: "Companion modernist equestrian piece featuring a tall chestnut horse with geometric harness \n Minimalist rider in a wide-brimmed white hat atop warm metallic gold-olive textured canvas \n Clean architectural lines and stylized proportions that evoke timeless high-fashion art \n Framed in a dark espresso profile with vintage gold lining \n Stunning individually or paired as a diptych with 'The Spotted Rider'",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -710,7 +710,7 @@ export const pricingImages = [
     image: gallery78,
     title: "Surah Al-Fatiha Square Kufic - AHF2411078",
     description: "Monumental Islamic architectural calligraphy of the complete Surah Al-Fatiha in Square Kufic \n Bold, geometric black lettering arranged in harmonious architectural symmetry \n Set against a soft textured ivory and taupe parchment background \n Sleek minimalist black gallery frame that accentuates the bold geometric rhythm \n A breathtaking spiritual centerpiece for formal drawing rooms, offices, and prayer halls",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -718,7 +718,7 @@ export const pricingImages = [
     image: gallery79,
     title: "Dolmen Exhibition Suite - AHF2411079",
     description: "Artisan exhibition arrangement highlighting signature Islamic calligraphy and fine frames \n Features the monumental Square Kufic Al-Fatiha and royal blue Ayatul Kursi crest \n Handcrafted velvet and woven tapestry textures with illuminated gold borders \n Premium Italian-style moulding with gallery-wrapped, ready-to-hang craftsmanship \n Perfect for discerning collectors seeking a unified heritage art collection",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -726,7 +726,7 @@ export const pricingImages = [
     image: gallery80,
     title: "Graceful Cranes Diptych - AHF2411080",
     description: "Two-panel vertical artwork featuring slender standing cranes in natural wetland contemplation \n Delicate feather detailing in warm ochre, cream, and brown across textured parchment \n Double framed with dark walnut inner reveals and an antique gold outer moulding \n Deep navy-black matting creates stunning depth and museum-grade focus \n Brings calm, organic beauty to hallways, staircases, bedrooms, and quiet nooks",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -734,7 +734,7 @@ export const pricingImages = [
     image: gallery81,
     title: "The Supplication (Hands of Dua) - AHF2411081",
     description: "Profound spiritual artwork depicting hands raised in heartfelt prayer with black tasbeeh beads \n Luminous golden halo disk radiating divine light against a deep midnight backdrop \n Richly textured white prayer shawl with painterly impasto strokes \n Framed in a sleek brushed gold frame that enhances the sacred glow \n A deeply moving piece for prayer rooms, quiet corners, and meaningful spiritual gifts",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -742,7 +742,7 @@ export const pricingImages = [
     image: gallery82,
     title: "The Melody Maiden - AHF2411082",
     description: "Mixed-media renaissance portrait of a gentle maiden in royal blue holding a white dove \n Background layered with vintage music sheets, dove motifs, and warm parchment textures \n Evokes peace, classical melody, and poetic grace with rich fabric texture \n Sleek golden floating frame that highlights the intricate layered composition \n Perfect for music rooms, libraries, reading nooks, and feminine boutique interiors",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -750,7 +750,7 @@ export const pricingImages = [
     image: gallery83,
     title: "Stallions of the Dawn - AHF2411083",
     description: "Dynamic horizontal masterpiece featuring two white and dappled stallions in full gallop \n Flanked by a flock of flying white doves soaring across a fiery amber and gold sky \n Exquisite equine anatomy, flying manes, and vivid brushstrokes radiate pure freedom \n Wide matte black gallery frame with white mount that dramatically showcases the action \n A breathtaking statement piece for grand living rooms, lounges, and corporate walls",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["3x2 ft"],
     prices: [7000, 8000],
   },
   {
@@ -758,7 +758,7 @@ export const pricingImages = [
     image: gallery84,
     title: "The Devout Scholar - AHF2411084",
     description: "Atmospheric exhibition portrait of a reader immersed in the Holy Quran \n Intricate plaid turban, woven shawl, and oriental carpet motifs rendered in rich detail \n Printed on luxury tapestry fabric with deep, fade-resistant heritage colors \n Bevelled antique gold frame that radiates classic craftsmanship \n An evocative addition to prayer rooms, private libraries, and cultural home spaces",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -766,7 +766,7 @@ export const pricingImages = [
     image: gallery85,
     title: "Grand Prix Velocity - AHF2411085",
     description: "High-octane motorsport artwork capturing a scarlet Ferrari Formula 1 car cutting the tarmac \n Dynamic speed lines, smoke trails, and glowing track reflections evoke pure racing adrenaline \n Printed on textured fabric for rich depth, sharp contrast, and vibrant scarlet tones \n Framed in a warm floating natural wood and gold profile \n The ultimate centerpiece for modern lounges, entertainment rooms, and motorsport fans",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   {
@@ -774,7 +774,7 @@ export const pricingImages = [
     image: gallery86,
     title: "The Whirling Light (3D Sufi Relief) - AHF2411086",
     description: "Spectacular 3D sculpted relief of a whirling dervish with flowing sculptural robes \n Gilded Arabic calligraphy: 'Allahu Nur us-Samawati wal-Ard' on deep midnight blue \n Dramatic multi-dimensional folds create real light and shadow play \n Framed in an antique gold moulding that elevates it into a museum-worthy sculpture \n A sublime spiritual masterpiece for executive lobbies, drawing rooms, and prayer halls",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [6000, 7000],
   },
   {
@@ -782,7 +782,7 @@ export const pricingImages = [
     image: gallery87,
     title: "Divine Illumination (Sufi Sculpture) - AHF2411087",
     description: "Hand-embellished 3D relief artwork capturing the ecstatic ascent of a whirling Sufi dervish \n Swirling robes sculpted with gold and silver highlights against a textured indigo background \n Sacred Quranic verse 'Allah is the Light of the heavens and the earth' in radiant calligraphy \n Encased in a wide Italian-style antique gold frame with intricate corner detailing \n A magnificent focal point that brings divine serenity, light, and wonder into your home",
-    dimensions: ["2x2 ft", "3x3 ft"],
+    dimensions: ["2x3 ft"],
     prices: [7000, 8000],
   },
   // {
