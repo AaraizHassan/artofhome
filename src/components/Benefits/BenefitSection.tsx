@@ -9,7 +9,7 @@ interface Props {
 }
 
 const containerVariants: Variants = {
-    offscreen: { opacity: 0, y: 80 },
+    offscreen: { opacity: 0, y: 50 },
     onscreen: {
         opacity: 1,
         y: 0,
@@ -23,32 +23,40 @@ const containerVariants: Variants = {
 
 export default function AboutSection({ title, description, imageSrc }: Props) {
     return (
-        <section className="my-24">
+        <section className="py-16 md:py-24 border-t border-[#EAE3D9]">
             <motion.div
-                className="flex flex-col-reverse lg:flex-row items-center gap-12"
+                className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-16 max-w-5xl mx-auto"
                 variants={containerVariants}
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{ once: true }}
             >
                 {/* TEXT SIDE */}
-                <div className="w-full lg:w-1/2 text-center lg:text-left">
-                    <h3 className="text-3xl font-bold mb-4">{title}</h3>
+                <div className="w-full lg:w-3/5 text-center lg:text-left">
+                    <span className="font-sans text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold block mb-2">
+                        Artisan Vision
+                    </span>
+                    <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-burgundy mb-4 tracking-tight">
+                        {title}
+                    </h2>
+                    <div className="w-16 h-[2px] bg-gold-400 mx-auto lg:mx-0 mb-6"></div>
 
-                    <p className="text-foreground-accent leading-relaxed text-lg">
+                    <p className="text-stone-700 leading-relaxed text-base sm:text-lg">
                         {description}
                     </p>
                 </div>
 
                 {/* IMAGE SIDE */}
-                <div className="w-full lg:w-1/2 flex justify-center">
-                    <Image
-                        src={imageSrc}
-                        alt={title}
-                        width={350}
-                        height={350}
-                        className="rounded-full object-cover shadow-xl"
-                    />
+                <div className="w-full lg:w-2/5 flex justify-center">
+                    <div className="relative p-2.5 rounded-full bg-gradient-to-tr from-gold-300 via-gold-100 to-warm-cream shadow-2xl border border-gold-300/40">
+                        <Image
+                            src={imageSrc}
+                            alt={title}
+                            width={320}
+                            height={320}
+                            className="rounded-full object-cover shadow-inner w-56 h-56 sm:w-72 sm:h-72"
+                        />
+                    </div>
                 </div>
             </motion.div>
         </section>

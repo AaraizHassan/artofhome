@@ -3,7 +3,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "923378639893"; // change if needed (no +, no spaces)
+  const phoneNumber = "923378639893";
   const message = "Hi, I am interested in your paintings.";
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
@@ -16,11 +16,13 @@ const WhatsAppButton = () => {
       target="_blank"
       rel="noopener noreferrer"
       className="
-        fixed bottom-5 right-5 z-50
+        fixed bottom-6 right-6 z-50
         flex items-center justify-center
         w-14 h-14 rounded-full
-        bg-green-500 hover:bg-green-600
-        shadow-lg transition-all duration-300
+        bg-[#25D366] hover:bg-[#20bd5a]
+        shadow-xl hover:shadow-2xl
+        transition-all duration-300 hover:scale-110
+        border-2 border-white
       "
       aria-label="Chat on WhatsApp"
     >

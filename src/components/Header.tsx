@@ -32,55 +32,56 @@ const Header: React.FC = () => {
         <header
             className={`
                 fixed top-0 left-0 right-0 z-50 mx-auto w-full transition-all duration-300
-                ${scrolled ? "bg-warm-cream/60 backdrop-blur-md shadow-md" : "bg-warm-cream"}
+                ${scrolled ? "bg-warm-cream/90 backdrop-blur-md shadow-sm border-b border-[#E7E0D5]" : "bg-warm-cream border-b border-transparent"}
             `}
         >
             <Container className="!px-0">
-                <nav className="mx-auto flex justify-between items-center py-2 px-5 transition-all duration-300">
+                <nav className="mx-auto flex justify-between items-center py-2.5 px-6 transition-all duration-300">
                     
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-2">
+                    <Link href="/" className="flex items-center gap-3 group">
                         <Image
                             src="/images/art of home.png"
                             alt="Art of Home Logo"
-                            width={80}
-                            height={80}
-                            className="object-contain"
+                            width={54}
+                            height={54}
+                            className="object-contain transition-transform duration-300 group-hover:scale-105"
                             priority
                         />
-                        <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
+                        <span className="font-serif text-2xl font-semibold tracking-tight text-burgundy cursor-pointer">
                             {siteDetails.siteName}
                         </span>
                     </Link>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex space-x-6">
-                        {menuItems.map(item => (
-                            <li key={item.text}>
-                                <Link
-                                    href={item.url}
-                                    className="text-burgundy hover:text-soft-clay transition-colors"
-                                >
-                                    {item.text}
-                                </Link>
-                            </li>
-                        ))}
-                        {/* <li>
-                            <Link
-                                href="#gallery"
-                                className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors"
-                            >
-                                Place an Order
-                            </Link>
-                        </li> */}
-                    </ul>
+                    <div className="hidden md:flex items-center space-x-8">
+                        <ul className="flex items-center space-x-7">
+                            {menuItems.map(item => (
+                                <li key={item.text}>
+                                    <Link
+                                        href={item.url}
+                                        className="font-sans text-xs uppercase tracking-widest text-stone-700 hover:text-burgundy font-medium transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1.5px] after:bg-burgundy hover:after:w-full after:transition-all"
+                                    >
+                                        {item.text}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+
+                        <Link
+                            href="#gallery"
+                            className="inline-flex items-center text-xs uppercase tracking-wider font-semibold text-white bg-burgundy hover:bg-[#521E27] px-5 py-2.5 rounded-full transition-all shadow-sm hover:shadow"
+                        >
+                            Explore Gallery
+                        </Link>
+                    </div>
 
                     {/* Mobile Menu Button */}
                     <div className="md:hidden flex items-center">
                         <button
                             onClick={toggleMenu}
                             type="button"
-                            className="bg-warm-cream text-burgundy focus:outline-none rounded-full w-10 h-10 flex items-center justify-center"
+                            className="bg-white/80 border border-[#E7E0D5] text-burgundy focus:outline-none rounded-full w-10 h-10 flex items-center justify-center shadow-sm"
                             aria-controls="mobile-menu"
                             aria-expanded={isOpen}
                         >
@@ -105,28 +106,28 @@ const Header: React.FC = () => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
             >
-                <div id="mobile-menu" className="md:hidden bg-warm-cream shadow-lg">
-                    <ul className="flex flex-col space-y-4 pt-1 pb-6 px-6">
+                <div id="mobile-menu" className="md:hidden bg-warm-cream/95 backdrop-blur-md border-b border-[#E7E0D5] shadow-lg">
+                    <ul className="flex flex-col space-y-4 pt-3 pb-6 px-6">
                         {menuItems.map(item => (
                             <li key={item.text}>
                                 <Link
                                     href={item.url}
-                                    className="text-burgundy hover:text-soft-clay block"
+                                    className="font-sans text-sm uppercase tracking-wider text-burgundy hover:text-gold-600 font-medium block py-1"
                                     onClick={toggleMenu}
                                 >
                                     {item.text}
                                 </Link>
                             </li>
                         ))}
-                        {/* <li>
+                        <li className="pt-2">
                             <Link
                                 href="#gallery"
-                                className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit"
+                                className="inline-block text-xs uppercase tracking-wider font-semibold text-white bg-burgundy hover:bg-[#521E27] px-6 py-3 rounded-full text-center w-full shadow"
                                 onClick={toggleMenu}
                             >
-                                Place an Order
+                                Explore Gallery
                             </Link>
-                        </li> */}
+                        </li>
                     </ul>
                 </div>
             </Transition>

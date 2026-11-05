@@ -2,54 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --background: #ffffff;
-
-  --foreground: #171717;
-
-  --primary: #FED835;
-
-  --secondary: #304fff;
-
-
-  --primary-accent: #e5c230;
-  --foreground-accent: #454545;
-  --hero-background: #F3F3F5;
-} */
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FAF7F2;
+  --foreground: #1C1917;
 
   /* Brand / Accent Colors */
-  --primary: #FED835;
-  --secondary: #304fff;
+  --primary: #6A2C37;
+  --secondary: #B89045;
 
   /* Existing accents */
-  --primary-accent: #e5c230;
-  --foreground-accent: #454545;
-  --hero-background: #F3F3F5;
+  --primary-accent: #521E27;
+  --foreground-accent: #57534E;
+  --hero-background: #F4EFEB;
 
-  /* New Art of Home Palette */
+  /* Art of Home Palette */
   --blush-rose: #E8C4C4;
-  --soft-clay: #D9A282;
+  --soft-clay: #C88A68;
   --deep-burgundy: #6A2C37;
-  --warm-cream: #F5EFE8;
+  --warm-cream: #FAF7F2;
 }
-
 
 html {
   @apply scroll-smooth;
 }
 
 body {
-  @apply text-lg;
-  
+  @apply text-base md:text-lg;
   color: var(--foreground);
   background: var(--background);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif), Georgia, serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.manrope {
+  font-family: var(--font-sans), sans-serif;
 }
 
 @layer utilities {
@@ -59,34 +52,18 @@ body {
   .bg-warm-cream {
     background-color: var(--warm-cream);
   }
-
   .bg-blush-rose {
     background-color: var(--blush-rose);
   }
-
   .bg-soft-clay {
     background-color: var(--soft-clay);
   }
-
   .text-burgundy {
     color: var(--deep-burgundy);
   }
-
   .border-soft-clay {
     border-color: var(--soft-clay);
   }
-}
-
-.manrope {
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 
 #logos svg {

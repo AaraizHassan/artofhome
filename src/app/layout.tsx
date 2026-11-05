@@ -1,16 +1,24 @@
 import type { Metadata } from "next";
-// import { GoogleAnalytics } from '@next/third-parties/google';
-// import { Source_Sans_3, Manrope } from "next/font/google";
+import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { siteDetails } from '@/data/siteDetails';
+import { siteDetails } from "@/data/siteDetails";
 
 import "./globals.css";
 
-// const manrope = Manrope({ subsets: ['latin'] });
-// const sourceSans = Source_Sans_3({ subsets: ['latin'] });
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-serif",
+  display: "swap",
+});
+
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: siteDetails.metadata.title,
@@ -19,10 +27,10 @@ export const metadata: Metadata = {
     title: siteDetails.metadata.title,
     description: siteDetails.metadata.description,
     url: siteDetails.siteUrl,
-    type: 'website',
+    type: "website",
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 675,
         alt: siteDetails.siteName,
@@ -30,10 +38,10 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: siteDetails.metadata.title,
     description: siteDetails.metadata.description,
-    images: ['/images/twitter-image.jpg'],
+    images: ["/images/twitter-image.jpg"],
   },
 };
 
@@ -43,13 +51,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-        <body className="bg-warm-cream text-foreground min-h-screen">
-          <Header />
-          {children}
-          <WhatsAppButton />
-          <Footer />
-        </body>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${jakarta.variable} ${playfair.variable} font-sans bg-warm-cream text-foreground min-h-screen antialiased selection:bg-burgundy/10 selection:text-burgundy`}>
+        <Header />
+        {children}
+        <WhatsAppButton />
+        <Footer />
+      </body>
     </html>
   );
 }
