@@ -257,8 +257,8 @@ export default function Pricing() {
               className="bg-[#FAF7F2] border border-[#E5DEC9] rounded-xl px-3 py-2 text-stone-800 font-medium focus:outline-none focus:border-burgundy cursor-pointer"
             >
               <option value="featured">Featured Order</option>
-              <option value="price-low">Starting Price: Low to High</option>
-              <option value="price-high">Starting Price: High to Low</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
               <option value="title">Name: A to Z</option>
             </select>
           </div>
