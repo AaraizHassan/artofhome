@@ -172,14 +172,11 @@ export default function Pricing() {
   };
 
   // Format price
-  const formatPrice = (prices: number[], dimensions: string[]) => {
+  const formatPrice = (prices: number[]) => {
     const validPrices = prices.filter((p) => p > 0);
-    if (validPrices.length === 0) return "Price on Request";
+    if (validPrices.length === 0) return "Starting Price on Request";
     const minPrice = Math.min(...validPrices);
-    if (dimensions.length > 1 && validPrices.length > 1) {
-      return `Starting from PKR ${minPrice.toLocaleString()}`;
-    }
-    return `PKR ${minPrice.toLocaleString()}`;
+    return `Starting Price: PKR ${minPrice.toLocaleString()}`;
   };
 
   return (
@@ -260,8 +257,8 @@ export default function Pricing() {
               className="bg-[#FAF7F2] border border-[#E5DEC9] rounded-xl px-3 py-2 text-stone-800 font-medium focus:outline-none focus:border-burgundy cursor-pointer"
             >
               <option value="featured">Featured Order</option>
-              <option value="price-low">Price: Low to High</option>
-              <option value="price-high">Price: High to Low</option>
+              <option value="price-low">Starting Price: Low to High</option>
+              <option value="price-high">Starting Price: High to Low</option>
               <option value="title">Name: A to Z</option>
             </select>
           </div>
@@ -294,8 +291,8 @@ export default function Pricing() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {displayedPaintings.map((item) => {
           const { name, code } = parseTitle(item.title);
-          const priceLabel = formatPrice(item.prices, item.dimensions);
-          const validDims = item.dimensions.filter((d) => d && d.trim().length > 0);
+          const priceLabel = formatPrice(item.prices);
+          // const validDims = item.dimensions.filter((d) => d && d.trim().length > 0);
 
           return (
             <div
@@ -340,11 +337,12 @@ export default function Pricing() {
                     {priceLabel}
                   </span>
 
-                  {validDims.length > 0 && (
+                  {/* Size mentioned on card commented out */}
+                  {/* {validDims.length > 0 && (
                     <span className="text-[11px] font-sans text-stone-600 bg-warm-cream border border-[#E8E1D5] px-2 py-0.5 rounded-md">
                       {validDims[0]}
                     </span>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>

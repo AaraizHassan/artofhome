@@ -146,6 +146,14 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
               {painting.description.split("\n").map((line, index) => {
                 const trimmed = line.trim();
                 if (!trimmed) return null;
+                // Exclude any bullet lines that mention sizes
+                if (
+                  /^(\*?\s*size[:\s]|\d+\s*[x×by]\s*\d+|specifications:\s*size)/i.test(trimmed) ||
+                  /^\d+\s*[x×by]\s*\d+\s*(inches|in|ft|feet)?$/i.test(trimmed) ||
+                  /^\s*size\s+\d+/i.test(trimmed)
+                ) {
+                  return null;
+                }
                 return <li key={index}>{trimmed}</li>;
               })}
             </ul>
@@ -157,7 +165,8 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
             <p className="text-xs text-stone-600 mb-3">Prices will vary based on the customization</p>
             
             <p className="font-semibold text-xs tracking-wider uppercase text-burgundy mb-2">Order Now:</p>
-            <div className="flex gap-2 flex-wrap">
+            {/* Sizes mentioned under Order Now commented out */}
+            {/* <div className="flex gap-2 flex-wrap">
               {painting.dimensions.map((d, i) => (
                 <button
                   key={i}
@@ -171,13 +180,13 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
                   {d || "Standard Size"}
                 </button>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Price & Advance */}
           <div className="bg-[#FAF7F2] border border-[#EBE4DA] rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
-              <p className="text-xs uppercase tracking-wider text-stone-500 font-medium">Price</p>
+              <p className="text-xs uppercase tracking-wider text-stone-500 font-medium">Starting Price</p>
               <p className="font-serif text-2xl font-bold text-burgundy">
                 PKR {originalPrice.toLocaleString()}
               </p>
@@ -196,7 +205,8 @@ export default function PaintingModal({ painting, isOpen, onClose }: PaintingMod
             <div className="flex flex-wrap items-center gap-3">
               <a
                 href={`https://wa.me/923378639893?text=${encodeURIComponent(
-                  `Hi, I am interested in "${painting.title}" (${painting.dimensions[selectedIndex] || "Standard Size"})\nLink: ${typeof window !== 'undefined' ? window.location.href : ''}`
+                  `Hi, I am interested in "${painting.title}"\nLink: ${typeof window !== 'undefined' ? window.location.href : ''}`
+                  /* (${painting.dimensions[selectedIndex] || "Standard Size"}) size mention commented out */
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
